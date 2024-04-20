@@ -1,4 +1,4 @@
----
+<!-- ---
 date: '2021-05-19'
 title: 'Web Development Intern'
 company: 'Suven C&T'
@@ -12,4 +12,4 @@ url: 'https://internship.suvenconsultants.com/'
 - Designed and deployed 2 e-learning portals, and 2 e-commerce platforms using Bootstrap
 - Modeled an e-Food and an Alumni Management Portals during a 2-month coding internship
 - View [HTML-CSS CERTIFICATE](https://drive.google.com/file/d/1W7c94PXLUn6LM4JOJuC-hKAgOknh6-U_/view?usp=sharing)
-- View [BOOTSTRAP CERTIFICATE](https://drive.google.com/file/d/1e4Tx7ghRP06EyBlulRoT9Qi5m3EAaWtj/view?usp=sharing)
+- View [BOOTSTRAP CERTIFICATE](https://drive.google.com/file/d/1e4Tx7ghRP06EyBlulRoT9Qi5m3EAaWtj/view?usp=sharing) -->

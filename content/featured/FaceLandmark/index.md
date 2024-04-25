@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: 'AI Face Landmark Detection'
-cover: 'face-landmark.png'
+cover: 'Unipay.png'
 github: 'https://github.com/yashitanamdeo/face-landmark-detection'
 external: 'https://yashitanamdeo.github.io/face-landmark-detection/'
 tech:

@@ -1,1 +1,11 @@
-{"data":{"site":{"siteMetadata":{"title":"Joshua Menezes","siteUrl":"https://yashitanamdeo.github.io","description":"Joshua Menezes is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners."}}}}
+{
+  "data": {
+    "site": {
+      "siteMetadata": {
+        "title": "Joshua Menezes",
+        "siteUrl": "https://joshua-menezes.netlify.app",
+        "description": "Joshua Menezes is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners."
+      }
+    }
+  }
+}

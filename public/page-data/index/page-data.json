@@ -1,1 +1,333 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"hero":{"edges":[{"node":{"frontmatter":{"title":"Hello, my name is","name":"Joshua Menezes","subtitle":"I love exploring new tech!","buttonText":"Get In Touch"},"html":"<p>I'm a Final Year Computer Science Engineering Student at DBIT, Mumbai. Primarily interested in Web and App Development.</p>\n<p>I absolutely love expanding my skill set and putting my new knowledge into practice!</p>"}}]},"about":{"edges":[{"node":{"frontmatter":{"title":"About Me","avatar":{"childImageSharp":{"fluid":{"tracedSVG":"data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='500'%20viewBox='0%200%20400%20500'%20preserveAspectRatio='none'%3e%3cpath%20d='M175%201a551%20551%200%2000-53%208%201857%201857%200%2000-78%2012L1%2027%200%2093l1%2066c2-2%2018-2%2019-1%202%202%203%2041%201%2043-1%201-2%202-14%202H0v208h16l18%201%201%201h6a421%20421%200%200045%208l18%202%2013-6%2012-5%2010%202h22c12%204%2029%207%2046%209l18%201v8c0%2010-1%2012-6%2012h-3l4%201a4500%204500%200%200097%2018c2%201%202%201%201%2011%200%2012-1%2014-2%2014s-2%201-2%203l-2%206c0%203%200%203%202%203s2-1%202-4v-2l1%204v2h83V0H291L175%201m208%2060c-6%202-14%204-28%205-24%202-23%201-22%2017l1%2049%201%2040%208-1a101%20101%200%200128-4c3-1%203-1%204-18l1-18-1-19%201%201c1%202%208%202%2018%201l6-1V61h-4l-6-1c-2-1-5%200-7%201M195%2082l-5%202c-2%200-6%204-7%207-1%201-2%202-5%202-6%201-8%204-8%208v8c-1%202-1%204%201%2010l2%209v4a2082%202082%200%20019%20105c2%200%202%200%201%202l1%201h1l2-1c2-3%205-4%204-1v1l2-3%202-2c4-2%207-2%207-1l1%201%201-1%201-1%201-1v-4l2%201c-1-1%2011-13%2018-18%203-2%206-4%207-3v22l10-1c9%200%2012%200%2022-3%2025-8%2026-8%2029-12%205-7%2013-14%2023-19l7-5c-2-1-3-9-2-13l1-21a2784%202784%200%2001-3-23c-2-1-2-2-1-5l1-7c0-3-1-3-4%204l-9%2015c-6%2010-9%2018-8%2023l-1%204-3-6c0-2-6-10-6-9l-1-2v-4l-1-3c1%200%201-1-1-1-1-1-1%200-2%201%200%203-2%202-3-1l-3-2c-3%200-5-1-5-2h-3c-3%202-5-1-4-8l1-7%201%204%202%204h2v1c-4%200-1%203%203%205%203%200%209-2%209-4l3-6%206-12%201-7-2-5c-5-9-11-9-19%200l-7%205-3%201c-2%203-3%2013-2%2017l1%206%202%205v2l1%201%201%201%201%2013%201%2015v5c0%203-1%204-6%2010-6%205-9%209-6%208h1l-1%202-2%204-1%203-3%203c-2%204-8%206-12%204l-3-3-1-1-1-2c0-4-3-9-6-10h-24c-4%201-5%201-8-2-4-3-3-5%201-6%209%200%2019-8%2019-13l-1-3-1-4c0-5-4-11-7-8l-3%201-3%201-5%201c-4%200-4%200-7-5s-3-5-1-6%209-1%2013%201v-2c-3-3-2-3%202-2%203%200%209%205%209%207l2%202%201%205c0%202%201%203%202%203h1l2%201v-3c-2-1-1-2%200-3l2-1c0%201%201%201%202-1v-2c-1-1-1%200-1%201l-1-2c-1-4-1-4%202-7l4-2%203-1c2-2%203-2%203-1%200%203%202%202%202%200s0-2%202-2c2%201%204-1%202-2-2%200-2-1%201-3l2-4%202-3%203-6%202-7v-8c-3-5-3-5%205-6%204%200%206-1%206-2h-12l-5-5c-5-5-7-6-11-7l-7-3c-2-2-2-2-5%200l-9%201-7-1-2-2c-1-2-4-1-7%202m4%209c-6%200-7%202-6%206v4c-1%201%200%201%204%201%202%200%204%200%203%201l-2%201%204%204c4%200%208%2013%204%2016v2c2%200%204-4%204-9v-5l5-2%205-3%203-1%206-2h-8c-5%200-6%201-4%201%201%201%201%202-2%204-4%202-6%201-4-2v-2c-2-3-1-5%202-5h4l6-1h5l-2-2c-3-3-15-7-18-7l-9%201m-90%203l-3%203c0%201-2%202-6%202-7%202-10%201-10-1s-6-1-7%201c-2%203-2%2013%200%2024v10l-2%206%202%2022%201%2033c1%201%200%202-1%202l-4%204c-2%203-3%204-5%204-7%200-10%205-10%2017v8l-6%204-7%204v-13c1-10%201-11-1-13h-3c-2%203-7%203-7%202l2-2c3%200-2-4-8-5-12-4-13-4-15%2017%200%2010-2%2018-2%2019-3%205%201%208%2010%209%208%200%208%200%205%204-2%202-4%207-2%205l2%201c1%201%201%201%203-1l4-2c1%200%209%2010%208%2011l1%201%201%203v7l5%2018c1%201%2011-2%2012-3l-4-21c-1-2%202-4%205-6l4-2%201%203c1%202%201%203%203%201%202-1%202-1%200-3l-2-2c0-1%205%202%205%204h10c13%200%2013%200%2013-2l1-1h1l1%201v-7l1-1c0-2%200-3%203-6%203-4%205-4%202%200-2%204-4%209-2%208v2c-1%202-1%202%201%204%203%202%204%205%202%2011-2%209-2%2010%200%2010l4-1%205-3c7-1%208-1%209-3s0-3-1-5c-2-2-3-3-3-10l-1-18c-1-11-1-12%204-17v-12c0-9%200-11-3-15l-3-6h1a355%20355%200%20019%2011c2%201%204%208%203%208v1c2%202%203-1%202-4l-2-6-3-8c-3-5-3-6-1-7v-3c-2-2-1-7%202-6l-1-3c-3-4-4-5-6-2-3%204-4%201-5-18%200-18-2-20-9-14-4%203-4%203-15-1l-7-2h4l13-2c10%200%2016-2%2019-5%203-5%200-28-5-39v-3c4-3-7-4-12-1m168%206l-2%207c0%203%200%204-1%203l-2-1c-2%200-2%200-1%202l-1%2011c0%205%201%205%205%202l5-3%201-2c-1-1%200-2%201-2%202%200%201-5-2-7-2-2-2-2%200-4l2-3c1-1%202-1%203%201%203%203%206%203%205%200-1-6-8-8-13-4m-91%206l-2%201c-1%200-2%201-2%204s0%204%201%203c2-2%203-1%205%204l6%208c4%204%203%206-4%207-9%200-15%204-8%205%202%200%202%201%202%204s0%203%203%202l3-1h3c2%200%201-1-1-3l-2-2%202-1%209-4%202-3c-1-1%200-2%201-3l-4-1c-5%200-9-2-9-5h2c2%203%202%202%201-3-1-2-1-3-2-2-1%204-6-4-4-9%200-3-1-4-2-1m166%2074l-13%202c-8%201-4%201%2011%201h18l3%202%201-3v-4h-6l-14%202m-19%209l-3%201h3c2%200%204%201%204%203l3%203%205%204%209%207%208%204c2%201%203%202%204%201l1%201c-1%201%200%201%201%201v-1c-1-1%200-2%202-6%205-7%203-10-8-10-4%200-13-3-21-6a458%20458%200%2000-8-2m-220%2020c0%204-2%205-5%203-2-1-2-1-1%206%202%207%201%2010-4%2010-2%200-3-1-4-6-3-8-3-7-1%201v9c-4%202-6%201-10-6-3-7-5-9-3-3%203%205%202%206-1%207-2%201-2%201-5-1-3-3-3-3-3-1l-6%205a138%20138%200%2000-14%2010l-4%204%2010%2011c3%200%205-1%205-2%202-4%2018-14%2021-14h3l3-1h2l9-9%201-1%202-2%203-2%201-1c1%201%201%200%202-1%200-2%201-3%202-3v-6l-1-7-2-2v2m12%2081l-2%205c-1%203-5%207-7%207l-3%201c-2%201-2%201%201%205%203%203%203%204%203%208v5l2-2%203-3c3-3%2010-12%2010-14h-1c-1%201-2-5-2-10%200-4-3-5-4-2m37%2019l-2%205c0%202-1%201-1-1-2-5-4-5-6%200s-2%206%200%205h4l3-1h1l2-1%204-1c2%200%203-2%204-6%201-3%201-3-1-3l-3%201h-1c-2-2-3-1-4%202'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e","aspectRatio":0.7990867579908676,"src":"/static/5f5e321564725ffbbb56ee667f518c8f/ea4ab/me.jpg","srcSet":"/static/5f5e321564725ffbbb56ee667f518c8f/477ba/me.jpg 175w,\n/static/5f5e321564725ffbbb56ee667f518c8f/06776/me.jpg 350w,\n/static/5f5e321564725ffbbb56ee667f518c8f/ea4ab/me.jpg 700w,\n/static/5f5e321564725ffbbb56ee667f518c8f/3055e/me.jpg 1050w,\n/static/5f5e321564725ffbbb56ee667f518c8f/eff08/me.jpg 1400w,\n/static/5f5e321564725ffbbb56ee667f518c8f/fb6cc/me.jpg 2701w","srcWebp":"/static/5f5e321564725ffbbb56ee667f518c8f/89afa/me.webp","srcSetWebp":"/static/5f5e321564725ffbbb56ee667f518c8f/9fca7/me.webp 175w,\n/static/5f5e321564725ffbbb56ee667f518c8f/37a4e/me.webp 350w,\n/static/5f5e321564725ffbbb56ee667f518c8f/89afa/me.webp 700w,\n/static/5f5e321564725ffbbb56ee667f518c8f/78e7a/me.webp 1050w,\n/static/5f5e321564725ffbbb56ee667f518c8f/03d34/me.webp 1400w,\n/static/5f5e321564725ffbbb56ee667f518c8f/48663/me.webp 2701w","sizes":"(max-width: 700px) 100vw, 700px"}}},"skills":["Web Development","App Development","Problem Solving","Leadership","Decision Making","Team Management","Mentoring","Sports"]},"html":"<p>Hey! I'm Joshua MenezeS, from Mumbai, also known as 'The City Of Dreams'.</p>\n<p>I am a curious, creative, and dedicated individual with strong moral values and ethics, excellent communication, team management, and leadership skills.</p>\n<p>I am pursuing my Bachelors Degree from <a href=\"https://www.dbit.in/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">DBIT, MUMBAI</a> in Computer Engineering (2021-2025) with Honors/Minors in CyberSecurity.</p>\n<p>I am currently the Vice-Chairperson of <a href=\"https://dbit.acm.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ACM-DBIT Student Chapter</a> and also have been an active contributor towards <a href=\"https://teknack.in/https://teknack.in/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">TEKNACK GAMING STUDIOS</a> for the past three years.</p>\n<p>Here are a few of the other activities that I love to do!</p>"}}]},"jobs":{"edges":[{"node":{"frontmatter":{"title":"Vice Chairperson","company":"ACM - DBIT STUDENT CHAPTER","location":"remote","range":"August 2022 - Present","url":"https://dbit.acm.org/"},"html":"<ul>\n<li>I have successfully organized numerous workshops, seminars, and events for students.</li>\n<li>Throughout the year, I led and managed a team of 27 members to successfully execute ACM activities..</li>\n<li>Effectively networked with ACM HQ in New York, college management, faculty and other student chapters.</li>\n<li>View <a href=\"https://drive.google.com/file/d/1q-rr54_-9znx-m1PvEDTYkbu5yGy0miK/view?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">OFFER LETTER</a></li>\n<li>View <a href=\"https://drive.google.com/file/d/1q-rr54_-9znx-m1PvEDTYkbu5yGy0miK/view?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n</ul>"}},{"node":{"frontmatter":{"title":"Virtual Internship Experience","company":"FORAGE","location":"remote","range":"April 2024","url":"https://www.theforage.com/"},"html":"<ul>\n<li>TATA GROUP - CyberSecurity Analyst Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Tata%20Group_certificate.pdf?sp=r&#x26;st=2024-04-20T10:15:08Z&#x26;se=2100-04-20T18:15:08Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=DJab1ciri3aLhFm2meHf6NIrW7YVR%2B4z2LTQwY3ruro%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>WALMART USA - Advanced Software Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Walmart%20USA_certificate.pdf?sp=r&#x26;st=2024-04-20T10:15:44Z&#x26;se=2100-04-20T18:15:44Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=%2FcSwNTUm5UPm8kWiS5dwou8vLVxm7d5OqjQyGrKaSoE%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>ACCENTURE - Coding : Development &#x26; Advanced Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Accenture%20North%20America_certificate.pdf?sp=r&#x26;st=2024-04-20T10:13:58Z&#x26;se=2100-04-20T18:13:58Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=H3%2B9FXBRUzqA6MVqmQ6a02bihQiq7rgmn%2BsOg0CGpEY%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>GOLDMAN SACHS - Software Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Goldman%20Sachs_certificate.pdf?sp=r&#x26;st=2024-04-20T16:54:46Z&#x26;se=2100-04-21T00:54:46Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=HslvkiSRTZ6KqE3L945phRN1sMWrub%2BIJa%2FJbCHOOtI%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>AWS - Solutions Architecture Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/AWS%20APAC_certificate.pdf?sp=r&#x26;st=2024-04-20T17:06:48Z&#x26;se=2100-04-21T01:06:48Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=vRBQ9hz2krerKMVQ91%2FvcCzkZvyL9h4jDQ6qtvqCO9M%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>BCG - GenAI Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/BCG_certificate.pdf?sp=r&#x26;st=2024-04-20T17:24:29Z&#x26;se=2100-04-21T01:24:29Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=UwDBEflG34NY7xwN1DlpXXZLf0qCEUeeoTbHd1QjFF0%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n</ul>"}}]},"featured":{"edges":[{"node":{"frontmatter":{"title":"RedLife - A Blood Bank Management System","cover":{"childImageSharp":{"fluid":{"tracedSVG":"data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%2016v16h401V0H0v16m0%2055v22l6%201h101l94-1%203-3%2012-7%2015-9c7-4%209-4%209-1s-3%206-8%209c-4%202-5%205-3%207l26%203-2%204c-2%202-3%203-6%203s-3%200-1%201l3%202-1%203c-1%202-1%203-5%202h-3l3%202%2015%2015c-1%202-5%201-13-5l-10-5%205%207c5%205%206%207%202%208l-9-6c-8-8-11-9-18-11-3%200-7-2-10-4l-4-3h-96L5%20106H0v53h396v-55l-16-1c-20-2-23-1-28%204-2%202-6%206-9%207a901%20901%200%2000-32%2018c-1-4%200-7%207-12%205-3%206-4%206-7%200-4-4-5-14-5-8%200-8%200-9-3l-1-4c-1-1%200-2%202-3h4l-5-2c-5-1-14-8-13-9l9%201h11l-21-14c-5-3-4-6%202-5%204%200%207%201%2015%206l11%205-6-7c-12-12-7-15%206-4%208%208%2014%2011%2023%2012l12%204c5%204%205%204%2016%204l20-1%2010-1V50H0v21m33-12l-2%203c-1%201-1%201-1-1%202-4-3-3-5%202-2%203-2%204-6%204-3%200-4%201-4%204%200%202-1%203-4%203-4%200-5%200-5%202%200%203%200%203%204%203%205%200%205%200%205%203s0%203%204%203%204%200%204-3c0-4%201-4%205-1%207%205%2012%204%2016-2%203-4%204-8%201-10-1-3-1-4%201-4%203-1%201-4-2-4l-2-1c-1-2-9-3-9-1M17%2071c0%203-1%204-5%204-6%200-6%203%201%203%204%200%204%200%204%203%200%202%200%203%202%203s2-1%202-3c0-3%200-3%205-3%206-1%206-2%200-3-4%200-5-1-5-4%200-2-1-3-2-3s-2%201-2%203m95%2067c-3%202-4%207-1%209%204%203%2010%200%2010-4%200-5-4-7-9-5m15%200c-3%201-4%206-1%208s6%203%209%200c6-4-1-11-8-8m50%200c-3%202-4%207-1%209s9%200%2010-2c3-5-3-10-9-7m30%200c-4%202-3%208%202%2010%206%201%2011-6%206-9-3-2-4-2-8-1m113%200c-4%202-3%208%202%2010%204%201%207-1%208-5%200-5-4-7-10-5m-180%205l1%205%204-1c10%200%209-9-1-9h-4v5M9%20190l-1%2012v10H4a1158%201158%200%200085-3c0-2%200-2-5-2s-7-1-3-2l1-4c0-3-1-4-4-4s-4%200-4%202h-2c-3-4-7-1-5%203s0%205-9%205c-6%200-8%200-8-2l-2-2-1-1c3%200%202-2%200-2l-2%202h-2c-2-2-3-2-4%200h-1l-2-2c-2-1-2-1%200-2%203-1%204-5%201-5l-1-1c0-2%200-3%204-3l-14-1c-14%200-17%200-17%202m96%2011v12h8l8-1c-1-1%200-1%201-1%202%200%202%200%201%201s11%201%2036%201h37l-34-1-31-1c3%200%204-2%201-2-1-1-1-1%201-1%203%200%204-5%201-7l-2-5c0-3%200-3%201-1s1%202%208%202c6%200%207%200%207-2%200-1-1-2-6-2-10%200-15-3-6-4l-14-1h-17v13m96-12v24h6l7-1c-1-1%200-1%201-1l2%201c-1%201%2012%201%2037%201l29-1-6-1c3%200%204%200%202-3v-4c1-3%201-3-2-4l-2-1-1%201-3-1%201-1%201-1-5%202c-4%202-4%202-3%205v7c1%201-8%201-20%201l-18-1c3%200%204%200%203-1l-1-6-1-5-1-1%207-1h7l1-2c0-1-1-2-5-1l-6-1h-2c-2%200-2%200-1-1v-2c-1-1%200-1%203-1l-12-1-18%201m97%200l-1%203v3h29a304%20304%200%200014-1c-17-1-17-1-15-2v-1c-3%200-1-2%203-2l-13-1-17%201m-128%2010c-6%206-4%2012%202%2012%207%200%209-6%204-12l-4-3-2%203m123-1l-1%208v7h48c27%200%2047%200%2045-1h-3v-15l-45-1c-39%200-44%200-44%202'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e","aspectRatio":1.881720430107527,"src":"/static/7422bb8cf1f130fde5fb292b49e966a3/60290/RedLife.png","srcSet":"/static/7422bb8cf1f130fde5fb292b49e966a3/847ef/RedLife.png 175w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/91cba/RedLife.png 350w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/60290/RedLife.png 700w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/f5f50/RedLife.png 1050w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/38674/RedLife.png 1400w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/c608a/RedLife.png 1920w","srcWebp":"/static/7422bb8cf1f130fde5fb292b49e966a3/89afa/RedLife.webp","srcSetWebp":"/static/7422bb8cf1f130fde5fb292b49e966a3/9fca7/RedLife.webp 175w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/37a4e/RedLife.webp 350w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/89afa/RedLife.webp 700w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/78e7a/RedLife.webp 1050w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/03d34/RedLife.webp 1400w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/6833b/RedLife.webp 1920w","sizes":"(max-width: 700px) 100vw, 700px"}}},"tech":["HANDLEBARS","CSS","NODEJS","EXPRESSJS","MYSQL"],"github":"https://github.com/Juiceyyyy/RedLife","external":"https://juiceyyyy.github.io/redlife.github.io/"},"html":"<p>Redlife is a web-based platform that connects blood donors with blood banks. It utilizes Google Maps and geocoding API to help donors locate nearby blood banks, schedule appointments, and check the availability of blood products. Blood banks can update their inventory, and the system sends alerts to the staff when the inventory level is low.</p>"}},{"node":{"frontmatter":{"title":"UniPay - A Virtual Payment System","cover":{"childImageSharp":{"fluid":{"tracedSVG":"data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H0v107m285-29l-1%2010v8h-2l-3-1v91l2%202c4%203%209%203%2012-1%203-5%205-5%2035-5h28V95l-4%201h-4v-7c0-13%203-12-32-12l-31%201m2%201l-1%2015c0%2013%200%2015%202%2015%203%202%2056%201%2057%200l1-16V79l-30-1-29%201'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e","aspectRatio":1.881720430107527,"src":"/static/e18238bcb416015b085c4c2eb270b3a0/60290/Unipay.png","srcSet":"/static/e18238bcb416015b085c4c2eb270b3a0/847ef/Unipay.png 175w,\n/static/e18238bcb416015b085c4c2eb270b3a0/91cba/Unipay.png 350w,\n/static/e18238bcb416015b085c4c2eb270b3a0/60290/Unipay.png 700w,\n/static/e18238bcb416015b085c4c2eb270b3a0/f5f50/Unipay.png 1050w,\n/static/e18238bcb416015b085c4c2eb270b3a0/38674/Unipay.png 1400w,\n/static/e18238bcb416015b085c4c2eb270b3a0/c608a/Unipay.png 1920w","srcWebp":"/static/e18238bcb416015b085c4c2eb270b3a0/89afa/Unipay.webp","srcSetWebp":"/static/e18238bcb416015b085c4c2eb270b3a0/9fca7/Unipay.webp 175w,\n/static/e18238bcb416015b085c4c2eb270b3a0/37a4e/Unipay.webp 350w,\n/static/e18238bcb416015b085c4c2eb270b3a0/89afa/Unipay.webp 700w,\n/static/e18238bcb416015b085c4c2eb270b3a0/78e7a/Unipay.webp 1050w,\n/static/e18238bcb416015b085c4c2eb270b3a0/03d34/Unipay.webp 1400w,\n/static/e18238bcb416015b085c4c2eb270b3a0/6833b/Unipay.webp 1920w","sizes":"(max-width: 700px) 100vw, 700px"}}},"tech":["FLUTTER","FIREBASE","APIs","ANDROID STUDIO","GRADLE"],"github":"https://github.com/Juiceyyyy/UniPay","external":"https://github.com/Juiceyyyy/UniPay"},"html":"<p>UniPay - the ultimate virtual payment system for events. Built with Flutter and Firebase tech, UniPay adapts to any event, empowering organizers to configure new currencies easily. Attendees can make secure transactions with QR scanning and biometric authentication. UniPay provides powerful tools for smooth currency management.</p>"}},{"node":{"frontmatter":{"title":"BlackJack Online","cover":{"childImageSharp":{"fluid":{"tracedSVG":"data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H0v107m4-37v24h32V46H4v24m40%200v24h16l16-1h-1l-1-3%201-3c1%201%201-4%201-20V46H44v24m40-23v24l1%2023h15c8%200%2014%200%2013-1v-2l2%201c1%205%202-2%201-22V47l-16-1-16%201m40%200v24l1%2023h32l-1-24V47l-16-1-16%201M5%20120l-1%2024v23h32v-48H21l-16%201m40%200l-1%2024v23h32v-48H61l-16%201m40%200l-1%2024v23h15c10%200%2015%200%2014-1v-1l2%201h1l1-24v-22l-16-1-16%201m65%2081v7h26v-14h-26v7m39-6l-1%207v6h21v-14h-10l-10%201m33%200l-1%207v6h30l-1-7v-7h-14l-14%201'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e","aspectRatio":1.881720430107527,"src":"/static/ce2738a1b763482c8f74e9795be1179e/60290/blackjack.png","srcSet":"/static/ce2738a1b763482c8f74e9795be1179e/847ef/blackjack.png 175w,\n/static/ce2738a1b763482c8f74e9795be1179e/91cba/blackjack.png 350w,\n/static/ce2738a1b763482c8f74e9795be1179e/60290/blackjack.png 700w,\n/static/ce2738a1b763482c8f74e9795be1179e/f5f50/blackjack.png 1050w,\n/static/ce2738a1b763482c8f74e9795be1179e/38674/blackjack.png 1400w,\n/static/ce2738a1b763482c8f74e9795be1179e/c608a/blackjack.png 1920w","srcWebp":"/static/ce2738a1b763482c8f74e9795be1179e/89afa/blackjack.webp","srcSetWebp":"/static/ce2738a1b763482c8f74e9795be1179e/9fca7/blackjack.webp 175w,\n/static/ce2738a1b763482c8f74e9795be1179e/37a4e/blackjack.webp 350w,\n/static/ce2738a1b763482c8f74e9795be1179e/89afa/blackjack.webp 700w,\n/static/ce2738a1b763482c8f74e9795be1179e/78e7a/blackjack.webp 1050w,\n/static/ce2738a1b763482c8f74e9795be1179e/03d34/blackjack.webp 1400w,\n/static/ce2738a1b763482c8f74e9795be1179e/6833b/blackjack.webp 1920w","sizes":"(max-width: 700px) 100vw, 700px"}}},"tech":["HTML","CSS","JAVASCRIPT"],"github":"https://github.com/Juiceyyyy/IP","external":"https://juiceyyyy.github.io/IP/"},"html":"<p>The Blackjack game is built with HTML, CSS, and JavaScript and promises fast-paced gameplay, strategy-testing, and worldwide challenges. With sleek design and seamless functionality, players of all skill levels can hit, stand, and win big in the ultimate online Blackjack showdown!</p>"}},{"node":{"frontmatter":{"title":"Zoom Clone","cover":{"childImageSharp":{"fluid":{"tracedSVG":"data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H71v4c0%205%200%205%202%205A624%20624%200%20016%209c2%200%202-1%202-5V0H0v107m0%200v107l1-98V19l4%201h4v-8H5l-4%201V7L0%20107m49-84H14v3l1%202h68v7l1%2022a3506%203506%200%20001-35l-36%201m251%2054a541%20541%200%20001-7l-1-41v48m7-45l-2%202v83l1%2086%2040%201h38l1-2c2-2%202-46%202-140V35l-2-3-3-2h-36c-35%200-37%200-39%202m1%202c-3%202-3%20165-1%20167%202%201%2075%202%2077%200l1-84c0-81%200-83-2-84l-38-1c-33%200-36%200-37%202M24%2057c0%201%203%202%2024%202s23-1%2023-2c0-2-1-2-7-1l-9%201h-1c-1-2-30-2-30%200m-3%20142l-1%202-2%201c-1%200-2%200-1-1l-1-1-1%201-2%201-2%201%2025%201%2024-1c-1-1%200-1%201-1%204%200%204-2%201-2-12-1-20%200-21%201h-1l-7-1-8-1h-4'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e","aspectRatio":1.881720430107527,"src":"/static/63be007f42f18b770f1ae632a01d8dc4/60290/zoom.png","srcSet":"/static/63be007f42f18b770f1ae632a01d8dc4/847ef/zoom.png 175w,\n/static/63be007f42f18b770f1ae632a01d8dc4/91cba/zoom.png 350w,\n/static/63be007f42f18b770f1ae632a01d8dc4/60290/zoom.png 700w,\n/static/63be007f42f18b770f1ae632a01d8dc4/f5f50/zoom.png 1050w,\n/static/63be007f42f18b770f1ae632a01d8dc4/38674/zoom.png 1400w,\n/static/63be007f42f18b770f1ae632a01d8dc4/c608a/zoom.png 1920w","srcWebp":"/static/63be007f42f18b770f1ae632a01d8dc4/89afa/zoom.webp","srcSetWebp":"/static/63be007f42f18b770f1ae632a01d8dc4/9fca7/zoom.webp 175w,\n/static/63be007f42f18b770f1ae632a01d8dc4/37a4e/zoom.webp 350w,\n/static/63be007f42f18b770f1ae632a01d8dc4/89afa/zoom.webp 700w,\n/static/63be007f42f18b770f1ae632a01d8dc4/78e7a/zoom.webp 1050w,\n/static/63be007f42f18b770f1ae632a01d8dc4/03d34/zoom.webp 1400w,\n/static/63be007f42f18b770f1ae632a01d8dc4/6833b/zoom.webp 1920w","sizes":"(max-width: 700px) 100vw, 700px"}}},"tech":["FLUTTER","FIREBASE","APIs","ANDROID STUDIO"],"github":"https://github.com/Juiceyyyy/zoom_clone","external":"https://zoom-clone-59e12.web.app/"},"html":"<p>Our platform is a Zoom clone that offers secure, high-quality video meetings with intuitive controls and robust functionality. It's built using Flutter, Dart, and Firebase and offers advanced features for optimal collaboration.\n<br><br>\nInspired by Rivaan Ranawat's <a href=\"https://www.youtube.com/watch?v=sMA1dKbv33Y&#x26;t=5497s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Youtube Channel</a>.</p>"}}]},"projects":{"edges":[{"node":{"frontmatter":{"title":"Voter Registration WebApp","tech":["HTML","CSS"],"github":"https://github.com/yashitanamdeo/Voter-Registration-WebApp","external":"https://yashitanamdeo.github.io/Voter-Registration-WebApp/"},"html":"<p>Project 4 under HTML-CSS Suven Coding Internship</p>"}},{"node":{"frontmatter":{"title":"CSS Animation WebApp","tech":["HTML","CSS"],"github":"https://github.com/yashitanamdeo/CSS-Animation-WebApp","external":"https://yashitanamdeo.github.io/CSS-Animation-WebApp/"},"html":"<p>Project 3 under HTML-CSS Suven Coding Internship</p>"}},{"node":{"frontmatter":{"title":"Medium Blogging","tech":["HTML","CSS","Javascript"],"github":"https://github.com/yashitanamdeo/Medium-Blogging","external":"https://yashitanamdeo.github.io/Medium-Blogging/"},"html":"<p>Project 2 under Suven Coding Internship.</p>"}},{"node":{"frontmatter":{"title":"365 Entertainment Movie WebApp","tech":["HTML","CSS","Javascript"],"github":"https://github.com/yashitanamdeo/365-entertainment-Movie-Webapp","external":"https://yashitanamdeo.github.io/365-entertainment-Movie-Webapp/"},"html":"<p>Project 1 under Suven Coding Internship</p>"}},{"node":{"frontmatter":{"title":"Image Processing in Python","tech":["Python","Numpy","OpenCV"],"github":"https://github.com/yashitanamdeo/Image-Processing-Python","external":"https://github.com/yashitanamdeo/Image-Processing-Python/blob/main/Image_Processing.ipynb"},"html":"<p>Image Processing of different images in Python.</p>"}},{"node":{"frontmatter":{"title":"Covid-19 Vaccine Analysis","tech":["Python","Numpy","Pandas","Matplotlib","Seaborn"],"github":"https://github.com/yashitanamdeo/Covid19_Vaccine_Analysis","external":"https://github.com/yashitanamdeo/Covid19_Vaccine_Analysis/blob/main/Covid19_Vaccine_Analysis.ipynb"},"html":"<p>Analyzed how many vaccines each country is using to fight covid-19.</p>"}},{"node":{"frontmatter":{"title":"Whatsapp Chat Analysis","tech":["Python","Regex","Numpy","Pandas","Matplotlib"],"github":"https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis","external":"https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis/blob/main/WhatsApp%20Chat%20Analysis.ipynb"},"html":"<p>Demonstrated analysis of WhatsApp chat; presented organized messages sent per person in 2 creative ways. Collated stats into visuals; organized emoji, media, and links sent count.</p>"}},{"node":{"frontmatter":{"title":"JP Morgan Virtual Internship Project","tech":["Python","TypeScript","HTML","CSS","Javascript"],"github":"https://github.com/yashitanamdeo/JPMC_Virtual-Internship_Task3","external":""},"html":"<p>Completed 3 Modules assigned during the virtual internship program.</p>"}},{"node":{"frontmatter":{"title":"Basic Chatbot","tech":["Python","Numpy","Keras","NLTK","Pickle"],"github":"https://github.com/yashitanamdeo/Basic-Chatbot","external":""},"html":"<p>Built a simple chatbot using deep learning techniques. The chatbot is trained on the dataset which contains categories (intents), pattern and responses.</p>"}},{"node":{"frontmatter":{"title":"Calorie Calculator in Django","tech":["Python","Django"],"github":"https://github.com/yashitanamdeo/Calorie-Calulator-Django","external":""},"html":"<p>This Calorie Calculator is an interesting project – to record and estimate number of calories we need to consume daily. This app can also provide guidelines for gaining or losing weight.</p>"}},{"node":{"frontmatter":{"title":"Alarm Clock","tech":["Python","Tkinter"],"github":"https://github.com/yashitanamdeo/AlarmClock","external":""},"html":"<p>This alarm clock is a simple clock with a function that can be activated to ring at a time set in advance.</p>"}},{"node":{"frontmatter":{"title":"Image Cartoonifier","tech":["Python","OpenCV"],"github":"https://github.com/chandrikadeb7/100DaysOfCode","external":""},"html":"<p>Coded a Python Application to convert photo to cartoon, giving six image variations using matplotlib and Tkinter library</p>"}}]},"contact":{"edges":[{"node":{"frontmatter":{"title":"Get In Touch","buttonText":"Mail Me"},"html":"<p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant job updates.</p>"}}]}},"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-index-js",
+  "path": "/",
+  "result": {
+    "data": {
+      "hero": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Hello, my name is",
+                "name": "Joshua Menezes",
+                "subtitle": "I love exploring new tech!",
+                "buttonText": "Get In Touch"
+              },
+              "html": "<p>I'm a Final Year Computer Science Engineering Student at DBIT, Mumbai. Primarily interested in Web and App Development.</p>\n<p>I absolutely love expanding my skill set and putting my new knowledge into practice!</p>"
+            }
+          }
+        ]
+      },
+      "about": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "title": "About Me",
+                "avatar": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='500'%20viewBox='0%200%20400%20500'%20preserveAspectRatio='none'%3e%3cpath%20d='M175%201a551%20551%200%2000-53%208%201857%201857%200%2000-78%2012L1%2027%200%2093l1%2066c2-2%2018-2%2019-1%202%202%203%2041%201%2043-1%201-2%202-14%202H0v208h16l18%201%201%201h6a421%20421%200%200045%208l18%202%2013-6%2012-5%2010%202h22c12%204%2029%207%2046%209l18%201v8c0%2010-1%2012-6%2012h-3l4%201a4500%204500%200%200097%2018c2%201%202%201%201%2011%200%2012-1%2014-2%2014s-2%201-2%203l-2%206c0%203%200%203%202%203s2-1%202-4v-2l1%204v2h83V0H291L175%201m208%2060c-6%202-14%204-28%205-24%202-23%201-22%2017l1%2049%201%2040%208-1a101%20101%200%200128-4c3-1%203-1%204-18l1-18-1-19%201%201c1%202%208%202%2018%201l6-1V61h-4l-6-1c-2-1-5%200-7%201M195%2082l-5%202c-2%200-6%204-7%207-1%201-2%202-5%202-6%201-8%204-8%208v8c-1%202-1%204%201%2010l2%209v4a2082%202082%200%20019%20105c2%200%202%200%201%202l1%201h1l2-1c2-3%205-4%204-1v1l2-3%202-2c4-2%207-2%207-1l1%201%201-1%201-1%201-1v-4l2%201c-1-1%2011-13%2018-18%203-2%206-4%207-3v22l10-1c9%200%2012%200%2022-3%2025-8%2026-8%2029-12%205-7%2013-14%2023-19l7-5c-2-1-3-9-2-13l1-21a2784%202784%200%2001-3-23c-2-1-2-2-1-5l1-7c0-3-1-3-4%204l-9%2015c-6%2010-9%2018-8%2023l-1%204-3-6c0-2-6-10-6-9l-1-2v-4l-1-3c1%200%201-1-1-1-1-1-1%200-2%201%200%203-2%202-3-1l-3-2c-3%200-5-1-5-2h-3c-3%202-5-1-4-8l1-7%201%204%202%204h2v1c-4%200-1%203%203%205%203%200%209-2%209-4l3-6%206-12%201-7-2-5c-5-9-11-9-19%200l-7%205-3%201c-2%203-3%2013-2%2017l1%206%202%205v2l1%201%201%201%201%2013%201%2015v5c0%203-1%204-6%2010-6%205-9%209-6%208h1l-1%202-2%204-1%203-3%203c-2%204-8%206-12%204l-3-3-1-1-1-2c0-4-3-9-6-10h-24c-4%201-5%201-8-2-4-3-3-5%201-6%209%200%2019-8%2019-13l-1-3-1-4c0-5-4-11-7-8l-3%201-3%201-5%201c-4%200-4%200-7-5s-3-5-1-6%209-1%2013%201v-2c-3-3-2-3%202-2%203%200%209%205%209%207l2%202%201%205c0%202%201%203%202%203h1l2%201v-3c-2-1-1-2%200-3l2-1c0%201%201%201%202-1v-2c-1-1-1%200-1%201l-1-2c-1-4-1-4%202-7l4-2%203-1c2-2%203-2%203-1%200%203%202%202%202%200s0-2%202-2c2%201%204-1%202-2-2%200-2-1%201-3l2-4%202-3%203-6%202-7v-8c-3-5-3-5%205-6%204%200%206-1%206-2h-12l-5-5c-5-5-7-6-11-7l-7-3c-2-2-2-2-5%200l-9%201-7-1-2-2c-1-2-4-1-7%202m4%209c-6%200-7%202-6%206v4c-1%201%200%201%204%201%202%200%204%200%203%201l-2%201%204%204c4%200%208%2013%204%2016v2c2%200%204-4%204-9v-5l5-2%205-3%203-1%206-2h-8c-5%200-6%201-4%201%201%201%201%202-2%204-4%202-6%201-4-2v-2c-2-3-1-5%202-5h4l6-1h5l-2-2c-3-3-15-7-18-7l-9%201m-90%203l-3%203c0%201-2%202-6%202-7%202-10%201-10-1s-6-1-7%201c-2%203-2%2013%200%2024v10l-2%206%202%2022%201%2033c1%201%200%202-1%202l-4%204c-2%203-3%204-5%204-7%200-10%205-10%2017v8l-6%204-7%204v-13c1-10%201-11-1-13h-3c-2%203-7%203-7%202l2-2c3%200-2-4-8-5-12-4-13-4-15%2017%200%2010-2%2018-2%2019-3%205%201%208%2010%209%208%200%208%200%205%204-2%202-4%207-2%205l2%201c1%201%201%201%203-1l4-2c1%200%209%2010%208%2011l1%201%201%203v7l5%2018c1%201%2011-2%2012-3l-4-21c-1-2%202-4%205-6l4-2%201%203c1%202%201%203%203%201%202-1%202-1%200-3l-2-2c0-1%205%202%205%204h10c13%200%2013%200%2013-2l1-1h1l1%201v-7l1-1c0-2%200-3%203-6%203-4%205-4%202%200-2%204-4%209-2%208v2c-1%202-1%202%201%204%203%202%204%205%202%2011-2%209-2%2010%200%2010l4-1%205-3c7-1%208-1%209-3s0-3-1-5c-2-2-3-3-3-10l-1-18c-1-11-1-12%204-17v-12c0-9%200-11-3-15l-3-6h1a355%20355%200%20019%2011c2%201%204%208%203%208v1c2%202%203-1%202-4l-2-6-3-8c-3-5-3-6-1-7v-3c-2-2-1-7%202-6l-1-3c-3-4-4-5-6-2-3%204-4%201-5-18%200-18-2-20-9-14-4%203-4%203-15-1l-7-2h4l13-2c10%200%2016-2%2019-5%203-5%200-28-5-39v-3c4-3-7-4-12-1m168%206l-2%207c0%203%200%204-1%203l-2-1c-2%200-2%200-1%202l-1%2011c0%205%201%205%205%202l5-3%201-2c-1-1%200-2%201-2%202%200%201-5-2-7-2-2-2-2%200-4l2-3c1-1%202-1%203%201%203%203%206%203%205%200-1-6-8-8-13-4m-91%206l-2%201c-1%200-2%201-2%204s0%204%201%203c2-2%203-1%205%204l6%208c4%204%203%206-4%207-9%200-15%204-8%205%202%200%202%201%202%204s0%203%203%202l3-1h3c2%200%201-1-1-3l-2-2%202-1%209-4%202-3c-1-1%200-2%201-3l-4-1c-5%200-9-2-9-5h2c2%203%202%202%201-3-1-2-1-3-2-2-1%204-6-4-4-9%200-3-1-4-2-1m166%2074l-13%202c-8%201-4%201%2011%201h18l3%202%201-3v-4h-6l-14%202m-19%209l-3%201h3c2%200%204%201%204%203l3%203%205%204%209%207%208%204c2%201%203%202%204%201l1%201c-1%201%200%201%201%201v-1c-1-1%200-2%202-6%205-7%203-10-8-10-4%200-13-3-21-6a458%20458%200%2000-8-2m-220%2020c0%204-2%205-5%203-2-1-2-1-1%206%202%207%201%2010-4%2010-2%200-3-1-4-6-3-8-3-7-1%201v9c-4%202-6%201-10-6-3-7-5-9-3-3%203%205%202%206-1%207-2%201-2%201-5-1-3-3-3-3-3-1l-6%205a138%20138%200%2000-14%2010l-4%204%2010%2011c3%200%205-1%205-2%202-4%2018-14%2021-14h3l3-1h2l9-9%201-1%202-2%203-2%201-1c1%201%201%200%202-1%200-2%201-3%202-3v-6l-1-7-2-2v2m12%2081l-2%205c-1%203-5%207-7%207l-3%201c-2%201-2%201%201%205%203%203%203%204%203%208v5l2-2%203-3c3-3%2010-12%2010-14h-1c-1%201-2-5-2-10%200-4-3-5-4-2m37%2019l-2%205c0%202-1%201-1-1-2-5-4-5-6%200s-2%206%200%205h4l3-1h1l2-1%204-1c2%200%203-2%204-6%201-3%201-3-1-3l-3%201h-1c-2-2-3-1-4%202'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                      "aspectRatio": 0.7990867579908676,
+                      "src": "/static/5f5e321564725ffbbb56ee667f518c8f/ea4ab/me.jpg",
+                      "srcSet": "/static/5f5e321564725ffbbb56ee667f518c8f/477ba/me.jpg 175w,\n/static/5f5e321564725ffbbb56ee667f518c8f/06776/me.jpg 350w,\n/static/5f5e321564725ffbbb56ee667f518c8f/ea4ab/me.jpg 700w,\n/static/5f5e321564725ffbbb56ee667f518c8f/3055e/me.jpg 1050w,\n/static/5f5e321564725ffbbb56ee667f518c8f/eff08/me.jpg 1400w,\n/static/5f5e321564725ffbbb56ee667f518c8f/fb6cc/me.jpg 2701w",
+                      "srcWebp": "/static/5f5e321564725ffbbb56ee667f518c8f/89afa/me.webp",
+                      "srcSetWebp": "/static/5f5e321564725ffbbb56ee667f518c8f/9fca7/me.webp 175w,\n/static/5f5e321564725ffbbb56ee667f518c8f/37a4e/me.webp 350w,\n/static/5f5e321564725ffbbb56ee667f518c8f/89afa/me.webp 700w,\n/static/5f5e321564725ffbbb56ee667f518c8f/78e7a/me.webp 1050w,\n/static/5f5e321564725ffbbb56ee667f518c8f/03d34/me.webp 1400w,\n/static/5f5e321564725ffbbb56ee667f518c8f/48663/me.webp 2701w",
+                      "sizes": "(max-width: 700px) 100vw, 700px"
+                    }
+                  }
+                },
+                "skills": [
+                  "Web Development",
+                  "App Development",
+                  "Problem Solving",
+                  "Leadership",
+                  "Decision Making",
+                  "Team Management",
+                  "Mentoring",
+                  "Sports"
+                ]
+              },
+              "html": "<p>Hey! I'm Joshua MenezeS, from Mumbai, also known as 'The City Of Dreams'.</p>\n<p>I am a curious, creative, and dedicated individual with strong moral values and ethics, excellent communication, team management, and leadership skills.</p>\n<p>I am pursuing my Bachelors Degree from <a href=\"https://www.dbit.in/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">DBIT, MUMBAI</a> in Computer Engineering (2021-2025) with Honors/Minors in CyberSecurity.</p>\n<p>I am currently the Vice-Chairperson of <a href=\"https://dbit.acm.org/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">ACM-DBIT Student Chapter</a> and also have been an active contributor towards <a href=\"https://teknack.in/https://teknack.in/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">TEKNACK GAMING STUDIOS</a> for the past three years.</p>\n<p>Here are a few of the other activities that I love to do!</p>"
+            }
+          }
+        ]
+      },
+      "jobs": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Virtual Internship Experience",
+                "company": "FORAGE",
+                "location": "remote",
+                "range": "April 2024",
+                "url": "https://www.theforage.com/"
+              },
+              "html": "<ul>\n<li>TATA GROUP - CyberSecurity Analyst Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Tata%20Group_certificate.pdf?sp=r&#x26;st=2024-04-20T10:15:08Z&#x26;se=2100-04-20T18:15:08Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=DJab1ciri3aLhFm2meHf6NIrW7YVR%2B4z2LTQwY3ruro%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>WALMART USA - Advanced Software Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Walmart%20USA_certificate.pdf?sp=r&#x26;st=2024-04-20T10:15:44Z&#x26;se=2100-04-20T18:15:44Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=%2FcSwNTUm5UPm8kWiS5dwou8vLVxm7d5OqjQyGrKaSoE%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>ACCENTURE - Coding : Development &#x26; Advanced Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Accenture%20North%20America_certificate.pdf?sp=r&#x26;st=2024-04-20T10:13:58Z&#x26;se=2100-04-20T18:13:58Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=H3%2B9FXBRUzqA6MVqmQ6a02bihQiq7rgmn%2BsOg0CGpEY%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>GOLDMAN SACHS - Software Engineering Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/Goldman%20Sachs_certificate.pdf?sp=r&#x26;st=2024-04-20T16:54:46Z&#x26;se=2100-04-21T00:54:46Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=HslvkiSRTZ6KqE3L945phRN1sMWrub%2BIJa%2FJbCHOOtI%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>AWS - Solutions Architecture Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/AWS%20APAC_certificate.pdf?sp=r&#x26;st=2024-04-20T17:06:48Z&#x26;se=2100-04-21T01:06:48Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=vRBQ9hz2krerKMVQ91%2FvcCzkZvyL9h4jDQ6qtvqCO9M%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n<li>BCG - GenAI Virtual Experience <a href=\"https://joshuasportfolio.blob.core.windows.net/certificates/BCG_certificate.pdf?sp=r&#x26;st=2024-04-20T17:24:29Z&#x26;se=2100-04-21T01:24:29Z&#x26;spr=https&#x26;sv=2022-11-02&#x26;sr=b&#x26;sig=UwDBEflG34NY7xwN1DlpXXZLf0qCEUeeoTbHd1QjFF0%3D\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n</ul>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Vice Chairperson",
+                "company": "ACM - DBIT STUDENT CHAPTER",
+                "location": "remote",
+                "range": "August 2022 - Present",
+                "url": "https://dbit.acm.org/"
+              },
+              "html": "<ul>\n<li>I have successfully organized numerous workshops, seminars, and events for students.</li>\n<li>Throughout the year, I led and managed a team of 27 members to successfully execute ACM activities..</li>\n<li>Effectively networked with ACM HQ in New York, college management, faculty and other student chapters.</li>\n<li>View <a href=\"https://drive.google.com/file/d/1q-rr54_-9znx-m1PvEDTYkbu5yGy0miK/view?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">OFFER LETTER</a></li>\n<li>View <a href=\"https://drive.google.com/file/d/1q-rr54_-9znx-m1PvEDTYkbu5yGy0miK/view?usp=sharing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">CERTIFICATE</a></li>\n</ul>"
+            }
+          }
+        ]
+      },
+      "featured": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "title": "RedLife - A Blood Bank Management System",
+                "cover": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%2016v16h401V0H0v16m0%2055v22l6%201h101l94-1%203-3%2012-7%2015-9c7-4%209-4%209-1s-3%206-8%209c-4%202-5%205-3%207l26%203-2%204c-2%202-3%203-6%203s-3%200-1%201l3%202-1%203c-1%202-1%203-5%202h-3l3%202%2015%2015c-1%202-5%201-13-5l-10-5%205%207c5%205%206%207%202%208l-9-6c-8-8-11-9-18-11-3%200-7-2-10-4l-4-3h-96L5%20106H0v53h396v-55l-16-1c-20-2-23-1-28%204-2%202-6%206-9%207a901%20901%200%2000-32%2018c-1-4%200-7%207-12%205-3%206-4%206-7%200-4-4-5-14-5-8%200-8%200-9-3l-1-4c-1-1%200-2%202-3h4l-5-2c-5-1-14-8-13-9l9%201h11l-21-14c-5-3-4-6%202-5%204%200%207%201%2015%206l11%205-6-7c-12-12-7-15%206-4%208%208%2014%2011%2023%2012l12%204c5%204%205%204%2016%204l20-1%2010-1V50H0v21m33-12l-2%203c-1%201-1%201-1-1%202-4-3-3-5%202-2%203-2%204-6%204-3%200-4%201-4%204%200%202-1%203-4%203-4%200-5%200-5%202%200%203%200%203%204%203%205%200%205%200%205%203s0%203%204%203%204%200%204-3c0-4%201-4%205-1%207%205%2012%204%2016-2%203-4%204-8%201-10-1-3-1-4%201-4%203-1%201-4-2-4l-2-1c-1-2-9-3-9-1M17%2071c0%203-1%204-5%204-6%200-6%203%201%203%204%200%204%200%204%203%200%202%200%203%202%203s2-1%202-3c0-3%200-3%205-3%206-1%206-2%200-3-4%200-5-1-5-4%200-2-1-3-2-3s-2%201-2%203m95%2067c-3%202-4%207-1%209%204%203%2010%200%2010-4%200-5-4-7-9-5m15%200c-3%201-4%206-1%208s6%203%209%200c6-4-1-11-8-8m50%200c-3%202-4%207-1%209s9%200%2010-2c3-5-3-10-9-7m30%200c-4%202-3%208%202%2010%206%201%2011-6%206-9-3-2-4-2-8-1m113%200c-4%202-3%208%202%2010%204%201%207-1%208-5%200-5-4-7-10-5m-180%205l1%205%204-1c10%200%209-9-1-9h-4v5M9%20190l-1%2012v10H4a1158%201158%200%200085-3c0-2%200-2-5-2s-7-1-3-2l1-4c0-3-1-4-4-4s-4%200-4%202h-2c-3-4-7-1-5%203s0%205-9%205c-6%200-8%200-8-2l-2-2-1-1c3%200%202-2%200-2l-2%202h-2c-2-2-3-2-4%200h-1l-2-2c-2-1-2-1%200-2%203-1%204-5%201-5l-1-1c0-2%200-3%204-3l-14-1c-14%200-17%200-17%202m96%2011v12h8l8-1c-1-1%200-1%201-1%202%200%202%200%201%201s11%201%2036%201h37l-34-1-31-1c3%200%204-2%201-2-1-1-1-1%201-1%203%200%204-5%201-7l-2-5c0-3%200-3%201-1s1%202%208%202c6%200%207%200%207-2%200-1-1-2-6-2-10%200-15-3-6-4l-14-1h-17v13m96-12v24h6l7-1c-1-1%200-1%201-1l2%201c-1%201%2012%201%2037%201l29-1-6-1c3%200%204%200%202-3v-4c1-3%201-3-2-4l-2-1-1%201-3-1%201-1%201-1-5%202c-4%202-4%202-3%205v7c1%201-8%201-20%201l-18-1c3%200%204%200%203-1l-1-6-1-5-1-1%207-1h7l1-2c0-1-1-2-5-1l-6-1h-2c-2%200-2%200-1-1v-2c-1-1%200-1%203-1l-12-1-18%201m97%200l-1%203v3h29a304%20304%200%200014-1c-17-1-17-1-15-2v-1c-3%200-1-2%203-2l-13-1-17%201m-128%2010c-6%206-4%2012%202%2012%207%200%209-6%204-12l-4-3-2%203m123-1l-1%208v7h48c27%200%2047%200%2045-1h-3v-15l-45-1c-39%200-44%200-44%202'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                      "aspectRatio": 1.881720430107527,
+                      "src": "/static/7422bb8cf1f130fde5fb292b49e966a3/60290/RedLife.png",
+                      "srcSet": "/static/7422bb8cf1f130fde5fb292b49e966a3/847ef/RedLife.png 175w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/91cba/RedLife.png 350w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/60290/RedLife.png 700w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/f5f50/RedLife.png 1050w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/38674/RedLife.png 1400w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/c608a/RedLife.png 1920w",
+                      "srcWebp": "/static/7422bb8cf1f130fde5fb292b49e966a3/89afa/RedLife.webp",
+                      "srcSetWebp": "/static/7422bb8cf1f130fde5fb292b49e966a3/9fca7/RedLife.webp 175w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/37a4e/RedLife.webp 350w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/89afa/RedLife.webp 700w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/78e7a/RedLife.webp 1050w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/03d34/RedLife.webp 1400w,\n/static/7422bb8cf1f130fde5fb292b49e966a3/6833b/RedLife.webp 1920w",
+                      "sizes": "(max-width: 700px) 100vw, 700px"
+                    }
+                  }
+                },
+                "tech": ["HANDLEBARS", "CSS", "NODEJS", "EXPRESSJS", "MYSQL"],
+                "github": "https://github.com/Juiceyyyy/RedLife",
+                "external": "https://juiceyyyy.github.io/redlife.github.io/"
+              },
+              "html": "<p>Redlife is a web-based platform that connects blood donors with blood banks. It utilizes Google Maps and geocoding API to help donors locate nearby blood banks, schedule appointments, and check the availability of blood products. Blood banks can update their inventory, and the system sends alerts to the staff when the inventory level is low.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "UniPay - A Virtual Payment System",
+                "cover": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H0v107m285-29l-1%2010v8h-2l-3-1v91l2%202c4%203%209%203%2012-1%203-5%205-5%2035-5h28V95l-4%201h-4v-7c0-13%203-12-32-12l-31%201m2%201l-1%2015c0%2013%200%2015%202%2015%203%202%2056%201%2057%200l1-16V79l-30-1-29%201'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                      "aspectRatio": 1.881720430107527,
+                      "src": "/static/e18238bcb416015b085c4c2eb270b3a0/60290/Unipay.png",
+                      "srcSet": "/static/e18238bcb416015b085c4c2eb270b3a0/847ef/Unipay.png 175w,\n/static/e18238bcb416015b085c4c2eb270b3a0/91cba/Unipay.png 350w,\n/static/e18238bcb416015b085c4c2eb270b3a0/60290/Unipay.png 700w,\n/static/e18238bcb416015b085c4c2eb270b3a0/f5f50/Unipay.png 1050w,\n/static/e18238bcb416015b085c4c2eb270b3a0/38674/Unipay.png 1400w,\n/static/e18238bcb416015b085c4c2eb270b3a0/c608a/Unipay.png 1920w",
+                      "srcWebp": "/static/e18238bcb416015b085c4c2eb270b3a0/89afa/Unipay.webp",
+                      "srcSetWebp": "/static/e18238bcb416015b085c4c2eb270b3a0/9fca7/Unipay.webp 175w,\n/static/e18238bcb416015b085c4c2eb270b3a0/37a4e/Unipay.webp 350w,\n/static/e18238bcb416015b085c4c2eb270b3a0/89afa/Unipay.webp 700w,\n/static/e18238bcb416015b085c4c2eb270b3a0/78e7a/Unipay.webp 1050w,\n/static/e18238bcb416015b085c4c2eb270b3a0/03d34/Unipay.webp 1400w,\n/static/e18238bcb416015b085c4c2eb270b3a0/6833b/Unipay.webp 1920w",
+                      "sizes": "(max-width: 700px) 100vw, 700px"
+                    }
+                  }
+                },
+                "tech": ["FLUTTER", "FIREBASE", "APIs", "ANDROID STUDIO", "GRADLE"],
+                "github": "https://github.com/Juiceyyyy/UniPay",
+                "external": "https://github.com/Juiceyyyy/UniPay"
+              },
+              "html": "<p>UniPay - the ultimate virtual payment system for events. Built with Flutter and Firebase tech, UniPay adapts to any event, empowering organizers to configure new currencies easily. Attendees can make secure transactions with QR scanning and biometric authentication. UniPay provides powerful tools for smooth currency management.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "BlackJack Online",
+                "cover": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H0v107m4-37v24h32V46H4v24m40%200v24h16l16-1h-1l-1-3%201-3c1%201%201-4%201-20V46H44v24m40-23v24l1%2023h15c8%200%2014%200%2013-1v-2l2%201c1%205%202-2%201-22V47l-16-1-16%201m40%200v24l1%2023h32l-1-24V47l-16-1-16%201M5%20120l-1%2024v23h32v-48H21l-16%201m40%200l-1%2024v23h32v-48H61l-16%201m40%200l-1%2024v23h15c10%200%2015%200%2014-1v-1l2%201h1l1-24v-22l-16-1-16%201m65%2081v7h26v-14h-26v7m39-6l-1%207v6h21v-14h-10l-10%201m33%200l-1%207v6h30l-1-7v-7h-14l-14%201'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                      "aspectRatio": 1.881720430107527,
+                      "src": "/static/ce2738a1b763482c8f74e9795be1179e/60290/blackjack.png",
+                      "srcSet": "/static/ce2738a1b763482c8f74e9795be1179e/847ef/blackjack.png 175w,\n/static/ce2738a1b763482c8f74e9795be1179e/91cba/blackjack.png 350w,\n/static/ce2738a1b763482c8f74e9795be1179e/60290/blackjack.png 700w,\n/static/ce2738a1b763482c8f74e9795be1179e/f5f50/blackjack.png 1050w,\n/static/ce2738a1b763482c8f74e9795be1179e/38674/blackjack.png 1400w,\n/static/ce2738a1b763482c8f74e9795be1179e/c608a/blackjack.png 1920w",
+                      "srcWebp": "/static/ce2738a1b763482c8f74e9795be1179e/89afa/blackjack.webp",
+                      "srcSetWebp": "/static/ce2738a1b763482c8f74e9795be1179e/9fca7/blackjack.webp 175w,\n/static/ce2738a1b763482c8f74e9795be1179e/37a4e/blackjack.webp 350w,\n/static/ce2738a1b763482c8f74e9795be1179e/89afa/blackjack.webp 700w,\n/static/ce2738a1b763482c8f74e9795be1179e/78e7a/blackjack.webp 1050w,\n/static/ce2738a1b763482c8f74e9795be1179e/03d34/blackjack.webp 1400w,\n/static/ce2738a1b763482c8f74e9795be1179e/6833b/blackjack.webp 1920w",
+                      "sizes": "(max-width: 700px) 100vw, 700px"
+                    }
+                  }
+                },
+                "tech": ["HTML", "CSS", "JAVASCRIPT"],
+                "github": "https://github.com/Juiceyyyy/IP",
+                "external": "https://juiceyyyy.github.io/IP/"
+              },
+              "html": "<p>The Blackjack game is built with HTML, CSS, and JavaScript and promises fast-paced gameplay, strategy-testing, and worldwide challenges. With sleek design and seamless functionality, players of all skill levels can hit, stand, and win big in the ultimate online Blackjack showdown!</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Zoom Clone",
+                "cover": {
+                  "childImageSharp": {
+                    "fluid": {
+                      "tracedSVG": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='213'%20viewBox='0%200%20400%20213'%20preserveAspectRatio='none'%3e%3cpath%20d='M0%20107v106h401V0H71v4c0%205%200%205%202%205A624%20624%200%20016%209c2%200%202-1%202-5V0H0v107m0%200v107l1-98V19l4%201h4v-8H5l-4%201V7L0%20107m49-84H14v3l1%202h68v7l1%2022a3506%203506%200%20001-35l-36%201m251%2054a541%20541%200%20001-7l-1-41v48m7-45l-2%202v83l1%2086%2040%201h38l1-2c2-2%202-46%202-140V35l-2-3-3-2h-36c-35%200-37%200-39%202m1%202c-3%202-3%20165-1%20167%202%201%2075%202%2077%200l1-84c0-81%200-83-2-84l-38-1c-33%200-36%200-37%202M24%2057c0%201%203%202%2024%202s23-1%2023-2c0-2-1-2-7-1l-9%201h-1c-1-2-30-2-30%200m-3%20142l-1%202-2%201c-1%200-2%200-1-1l-1-1-1%201-2%201-2%201%2025%201%2024-1c-1-1%200-1%201-1%204%200%204-2%201-2-12-1-20%200-21%201h-1l-7-1-8-1h-4'%20fill='%2364ffda'%20fill-rule='evenodd'/%3e%3c/svg%3e",
+                      "aspectRatio": 1.881720430107527,
+                      "src": "/static/63be007f42f18b770f1ae632a01d8dc4/60290/zoom.png",
+                      "srcSet": "/static/63be007f42f18b770f1ae632a01d8dc4/847ef/zoom.png 175w,\n/static/63be007f42f18b770f1ae632a01d8dc4/91cba/zoom.png 350w,\n/static/63be007f42f18b770f1ae632a01d8dc4/60290/zoom.png 700w,\n/static/63be007f42f18b770f1ae632a01d8dc4/f5f50/zoom.png 1050w,\n/static/63be007f42f18b770f1ae632a01d8dc4/38674/zoom.png 1400w,\n/static/63be007f42f18b770f1ae632a01d8dc4/c608a/zoom.png 1920w",
+                      "srcWebp": "/static/63be007f42f18b770f1ae632a01d8dc4/89afa/zoom.webp",
+                      "srcSetWebp": "/static/63be007f42f18b770f1ae632a01d8dc4/9fca7/zoom.webp 175w,\n/static/63be007f42f18b770f1ae632a01d8dc4/37a4e/zoom.webp 350w,\n/static/63be007f42f18b770f1ae632a01d8dc4/89afa/zoom.webp 700w,\n/static/63be007f42f18b770f1ae632a01d8dc4/78e7a/zoom.webp 1050w,\n/static/63be007f42f18b770f1ae632a01d8dc4/03d34/zoom.webp 1400w,\n/static/63be007f42f18b770f1ae632a01d8dc4/6833b/zoom.webp 1920w",
+                      "sizes": "(max-width: 700px) 100vw, 700px"
+                    }
+                  }
+                },
+                "tech": ["FLUTTER", "FIREBASE", "APIs", "ANDROID STUDIO"],
+                "github": "https://github.com/Juiceyyyy/zoom_clone",
+                "external": "https://zoom-clone-59e12.web.app/"
+              },
+              "html": "<p>Our platform is a Zoom clone that offers secure, high-quality video meetings with intuitive controls and robust functionality. It's built using Flutter, Dart, and Firebase and offers advanced features for optimal collaboration.\n<br><br>\nInspired by Rivaan Ranawat's <a href=\"https://www.youtube.com/watch?v=sMA1dKbv33Y&#x26;t=5497s\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Youtube Channel</a>.</p>"
+            }
+          }
+        ]
+      },
+      "projects": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Voter Registration WebApp",
+                "tech": ["HTML", "CSS"],
+                "github": "https://github.com/yashitanamdeo/Voter-Registration-WebApp",
+                "external": "https://yashitanamdeo.github.io/Voter-Registration-WebApp/"
+              },
+              "html": "<p>Project 4 under HTML-CSS Suven Coding Internship</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "CSS Animation WebApp",
+                "tech": ["HTML", "CSS"],
+                "github": "https://github.com/yashitanamdeo/CSS-Animation-WebApp",
+                "external": "https://yashitanamdeo.github.io/CSS-Animation-WebApp/"
+              },
+              "html": "<p>Project 3 under HTML-CSS Suven Coding Internship</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Medium Blogging",
+                "tech": ["HTML", "CSS", "Javascript"],
+                "github": "https://github.com/yashitanamdeo/Medium-Blogging",
+                "external": "https://yashitanamdeo.github.io/Medium-Blogging/"
+              },
+              "html": "<p>Project 2 under Suven Coding Internship.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "365 Entertainment Movie WebApp",
+                "tech": ["HTML", "CSS", "Javascript"],
+                "github": "https://github.com/yashitanamdeo/365-entertainment-Movie-Webapp",
+                "external": "https://yashitanamdeo.github.io/365-entertainment-Movie-Webapp/"
+              },
+              "html": "<p>Project 1 under Suven Coding Internship</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Image Processing in Python",
+                "tech": ["Python", "Numpy", "OpenCV"],
+                "github": "https://github.com/yashitanamdeo/Image-Processing-Python",
+                "external": "https://github.com/yashitanamdeo/Image-Processing-Python/blob/main/Image_Processing.ipynb"
+              },
+              "html": "<p>Image Processing of different images in Python.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Covid-19 Vaccine Analysis",
+                "tech": ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
+                "github": "https://github.com/yashitanamdeo/Covid19_Vaccine_Analysis",
+                "external": "https://github.com/yashitanamdeo/Covid19_Vaccine_Analysis/blob/main/Covid19_Vaccine_Analysis.ipynb"
+              },
+              "html": "<p>Analyzed how many vaccines each country is using to fight covid-19.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Whatsapp Chat Analysis",
+                "tech": ["Python", "Regex", "Numpy", "Pandas", "Matplotlib"],
+                "github": "https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis",
+                "external": "https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis/blob/main/WhatsApp%20Chat%20Analysis.ipynb"
+              },
+              "html": "<p>Demonstrated analysis of WhatsApp chat; presented organized messages sent per person in 2 creative ways. Collated stats into visuals; organized emoji, media, and links sent count.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "JP Morgan Virtual Internship Project",
+                "tech": ["Python", "TypeScript", "HTML", "CSS", "Javascript"],
+                "github": "https://github.com/yashitanamdeo/JPMC_Virtual-Internship_Task3",
+                "external": ""
+              },
+              "html": "<p>Completed 3 Modules assigned during the virtual internship program.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Basic Chatbot",
+                "tech": ["Python", "Numpy", "Keras", "NLTK", "Pickle"],
+                "github": "https://github.com/yashitanamdeo/Basic-Chatbot",
+                "external": ""
+              },
+              "html": "<p>Built a simple chatbot using deep learning techniques. The chatbot is trained on the dataset which contains categories (intents), pattern and responses.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Calorie Calculator in Django",
+                "tech": ["Python", "Django"],
+                "github": "https://github.com/yashitanamdeo/Calorie-Calulator-Django",
+                "external": ""
+              },
+              "html": "<p>This Calorie Calculator is an interesting project – to record and estimate number of calories we need to consume daily. This app can also provide guidelines for gaining or losing weight.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Alarm Clock",
+                "tech": ["Python", "Tkinter"],
+                "github": "https://github.com/yashitanamdeo/AlarmClock",
+                "external": ""
+              },
+              "html": "<p>This alarm clock is a simple clock with a function that can be activated to ring at a time set in advance.</p>"
+            }
+          },
+          {
+            "node": {
+              "frontmatter": {
+                "title": "Image Cartoonifier",
+                "tech": ["Python", "OpenCV"],
+                "github": "https://github.com/chandrikadeb7/100DaysOfCode",
+                "external": ""
+              },
+              "html": "<p>Coded a Python Application to convert photo to cartoon, giving six image variations using matplotlib and Tkinter library</p>"
+            }
+          }
+        ]
+      },
+      "contact": {
+        "edges": [
+          {
+            "node": {
+              "frontmatter": { "title": "Get In Touch", "buttonText": "Mail Me" },
+              "html": "<p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant job updates.</p>"
+            }
+          }
+        ]
+      }
+    },
+    "pageContext": {}
+  }
+}

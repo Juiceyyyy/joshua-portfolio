@@ -4,7 +4,7 @@ module.exports = {
     'Joshua Menezes is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
   siteKeywords:
     'Joshua Menezes, ACM , Vice Chairperson, software engineer, web developer, javascript, python, java, DBIT, Mumbai',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+  siteUrl: 'https://joshua-menezes.netlify.app/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',

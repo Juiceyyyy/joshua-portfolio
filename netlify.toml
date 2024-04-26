@@ -1,3 +1,5 @@
 [build]
-  command = "yarn install && npm run build"
-
+command = """
+  yarn install
+  NODE_OPTIONS=--openssl-legacy-provider 
+"""

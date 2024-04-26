@@ -1,2 +1,5 @@
 [build]
-  command = "npm install && yarn install --force && NODE_OPTIONS=--openssl-legacy-provider"
+  [build]
+  command = "npm install --force && yarn install --force"
+  command = "set NODE_OPTIONS=--openssl-legacy-provider && npm run build"
+

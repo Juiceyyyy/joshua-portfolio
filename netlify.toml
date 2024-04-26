@@ -1,2 +1,2 @@
 [build]
-  command = "npm i --g yarn && yarn install && npm install -g gatsby-cli && set NODE_OPTIONS=--openssl-legacy-provider && npm run build"
+  command = "npm install yarn && yarn install && npm install -g gatsby-cli && set NODE_OPTIONS=--openssl-legacy-provider && npm run build"

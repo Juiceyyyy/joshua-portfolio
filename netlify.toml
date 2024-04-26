@@ -1,0 +1,3 @@
+[build]
+  command = "set NODE_OPTIONS=--openssl-legacy-provider"
+  command = "npm run build"   # Second build command

@@ -1,3 +1,2 @@
 [build]
-  command = "npm install yarn && yarn install --force && set NODE_OPTIONS=--openssl-legacy-provider"
-  publish = "public"
+  command = "npm install && yarn install --force && NODE_OPTIONS=--openssl-legacy-provider yarn build"

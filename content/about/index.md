@@ -12,7 +12,7 @@ skills:
   - Sports
 ---
 
-Hey! I'm Joshua MenezeS, from Mumbai, also known as 'The City Of Dreams'.
+Hey! I'm Joshua Menezes, from Mumbai, also known as 'The City Of Dreams'.
 
 I am a curious, creative, and dedicated individual with strong moral values and ethics, excellent communication, team management, and leadership skills.
 

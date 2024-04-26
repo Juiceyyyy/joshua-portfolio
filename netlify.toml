@@ -1,5 +1,0 @@
-[build]
-command = """
-  yarn install
-  NODE_OPTIONS=--openssl-legacy-provider
-"""

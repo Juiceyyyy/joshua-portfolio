@@ -3,10 +3,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
-import { injectSpeedInsights } from '@vercel/speed-insights';
 import { GlobalStyle, theme } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-injectSpeedInsights();
 
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
 if (typeof window !== 'undefined') {

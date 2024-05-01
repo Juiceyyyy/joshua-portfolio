@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
-import { injectSpeedInsights } from '@vercel/speed-insights';
-
-injectSpeedInsights();
+import { SpeedInsights } from '@vercel/speed-insights';
 
 const StyledMainContainer = styled(Main)`
   counter-reset: section;
@@ -22,6 +20,7 @@ const IndexPage = ({ location, data }) => (
       {/* <Projects data={data.projects.edges} /> */}
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
+    <SpeedInsights />
   </Layout>
 );
 

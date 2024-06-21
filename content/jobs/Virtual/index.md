@@ -1,5 +1,5 @@
 ---
-date: '2024-04-20'
+date: '2'
 title: 'Virtual Internship Experience'
 company: 'FORAGE'
 location: remote

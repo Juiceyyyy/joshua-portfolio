@@ -107,7 +107,7 @@ const Footer = () => {
           rel="nofollow noopener noreferrer">
           <div>
             Revised by Joshua Menezes<br></br>
-            Last updated on 20-06-2024<br></br>
+            Last updated on 15-08-2024<br></br>
           </div>
 
           {/* {githubInfo.stars && githubInfo.forks && (

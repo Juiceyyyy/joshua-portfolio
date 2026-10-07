@@ -86,7 +86,7 @@ const PortfolioPage = () => (
         name="keywords"
         content="Joshua Menezes, software engineer, Python developer, backend engineer, data engineer, FastAPI, Snowflake, applied AI, quantitative systems, Mumbai"
       />
-      <meta name="theme-color" content="#f3f1ea" />
+      <meta name="theme-color" content="#101317" />
       <meta name="robots" content="index,follow" />
       <link rel="canonical" href="https://joshua-menezes.vercel.app/" />
       <meta property="og:type" content="website" />

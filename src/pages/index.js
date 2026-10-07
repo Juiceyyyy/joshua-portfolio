@@ -376,7 +376,7 @@ const PortfolioPage = () => (
         <div className="credential-stack">
           <article className="credential-card">
             <span>Education</span>
-            <h3>B.E. Computer Engineering</h3>
+            <h3>Bachelor’s in Computer Engineering</h3>
             <p>Don Bosco Institute of Technology, Mumbai · 2021–2025</p>
             <small>Honors in Cyber Security</small>
           </article>

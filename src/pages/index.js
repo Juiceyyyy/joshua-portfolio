@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import PortfolioStyle from '../styles/PortfolioStyle';
 
 const projects = [
   {
@@ -107,6 +108,7 @@ const schema = {
 
 const PortfolioPage = () => (
   <>
+    <PortfolioStyle />
     <Helmet>
       <html lang="en" />
       <title>Joshua Menezes — Software Engineer | Python, Data & AI</title>
@@ -300,8 +302,8 @@ const PortfolioPage = () => (
               </div>
               <p>
                 Build and support enterprise ETL/ELT and data-warehouse workflows across
-                Informatica, Snowflake, SQL and UNIX environments, with Python used across
-                engineering and automation work.
+                Informatica, Snowflake, SQL and UNIX environments, with Python as part of the
+                broader engineering stack.
               </p>
               <p>
                 My professional work gives me the reliability, validation and production-support
@@ -319,8 +321,8 @@ const PortfolioPage = () => (
                 <span>ACM-DBIT · TEKNACK Gaming Studios</span>
               </div>
               <p>
-                Progressed through ACM-DBIT leadership to Chairperson, leading a roughly
-                30-member chapter team and organizing technical workshops, events and
+                Progressed through ACM-DBIT leadership to Chairperson, leading a 27-member
+                chapter team and organizing technical workshops, events and
                 student-community initiatives. I also contributed to TEKNACK Gaming Studios for
                 three years.
               </p>

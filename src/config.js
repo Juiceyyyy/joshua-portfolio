@@ -1,12 +1,11 @@
 module.exports = {
   siteTitle: 'Joshua Menezes',
   siteDescription:
-    'Joshua Menezes is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Software engineer in Mumbai building Python, backend, data, applied-AI, and quantitative systems.',
   siteKeywords:
-    'Joshua Menezes, ACM , Vice Chairperson, software engineer, web developer, javascript, python, java, DBIT, Mumbai',
-  siteUrl: 'https://joshua-menezes.netlify.app/',
+    'Joshua Menezes, software engineer, Python developer, backend engineer, data engineer, FastAPI, Snowflake, applied AI, quantitative systems, Mumbai',
+  siteUrl: 'https://joshua-menezes.vercel.app/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Joshua Menezes',
   location: 'Mumbai, India',
@@ -22,32 +21,20 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/joshuamenezes-/',
     },
-    {
-      name: 'LeetCode',
-      url: 'https://leetcode.com/joshuamenezes65/',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/joshuamenezes_/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/',
-    },
   ],
 
   navLinks: [
     {
-      name: 'About',
-      url: '/#about',
+      name: 'Work',
+      url: '/#work',
     },
     {
       name: 'Experience',
-      url: '/#jobs',
+      url: '/#experience',
     },
     {
-      name: 'Projects',
-      url: '/#projects',
+      name: 'Toolkit',
+      url: '/#toolkit',
     },
     {
       name: 'Contact',
@@ -58,9 +45,9 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#92f7c5',
+    navy: '#0b0d10',
+    darkNavy: '#080a0c',
   },
 
   srConfig: (delay = 200) => ({

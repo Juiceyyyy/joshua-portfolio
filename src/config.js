@@ -6,7 +6,6 @@ module.exports = {
     'Joshua Menezes, software engineer, Python developer, backend engineer, data engineer, FastAPI, Snowflake, applied AI, quantitative systems, Mumbai',
   siteUrl: 'https://joshua-menezes.vercel.app/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Joshua Menezes',
   location: 'Mumbai, India',
@@ -46,9 +45,9 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#92f7c5',
+    navy: '#0b0d10',
+    darkNavy: '#080a0c',
   },
 
   srConfig: (delay = 200) => ({

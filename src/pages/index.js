@@ -6,73 +6,54 @@ const projects = [
   {
     number: '01',
     name: 'Citeral',
-    label: 'Evidence-grounded AI workspace',
+    type: 'Applied AI / RAG',
     description:
-      'A multi-tenant RAG platform for specialized assistants that work from private documents, curated knowledge and inspectable evidence. Built around hybrid retrieval, scoped access and citations rather than black-box answers.',
-    proof: 'Hybrid RAG · PostgreSQL RLS · inspectable citations',
-    stack: ['Next.js', 'TypeScript', 'Supabase', 'pgvector', 'Python', 'Cloudflare Workers AI'],
+      'Multi-tenant AI workspace for private documents and curated knowledge, with hybrid retrieval, scoped authorization and inspectable citations.',
+    highlights: 'Hybrid RAG · PostgreSQL RLS · pgvector · source inspection',
+    stack: 'Next.js · TypeScript · Supabase · Python · Cloudflare Workers AI',
     live: 'https://citeral.vercel.app/',
     code: 'https://github.com/Juiceyyyy/Citeral',
   },
   {
     number: '02',
     name: 'WhatsTheOdds',
-    label: 'Sports intelligence platform',
+    type: 'Sports intelligence',
     description:
-      'A data-heavy sports product that combines match data, statistics and prediction workflows with authentication, subscriptions and a production-facing interface. The data layer is designed around a 300k+ match historical corpus.',
-    proof: '300k+ historical matches · auth + payments',
-    stack: ['Next.js', 'FastAPI', 'PostgreSQL', 'Supabase', 'Stripe', 'Python'],
+      'Full-stack sports intelligence product combining historical and live data, match forecasting, odds comparison, bet tracking, authentication and payments.',
+    highlights: '300k+ historical matches · prediction workflows · auth + payments',
+    stack: 'Next.js · FastAPI · PostgreSQL · Supabase · Stripe · Python',
     live: 'https://whatstheodds.vercel.app/',
     code: null,
   },
   {
     number: '03',
     name: 'AlphEdge',
-    label: 'Systematic NSE research',
+    type: 'Quantitative systems',
     description:
-      'An open-source Indian-equity research system for momentum ranking, inverse-volatility sizing, market-regime controls and forward tracking. It also includes a deliberately guarded, locally controlled Zerodha order-planning workflow.',
-    proof: 'Momentum research · regime controls · broker-safe workflow',
-    stack: ['Python', 'pandas', 'Backtesting', 'FastAPI', 'GitHub Actions', 'Zerodha Kite'],
+      'Open-source Indian-equity research system for momentum ranking, inverse-volatility sizing, regime controls, forward tracking and a guarded Zerodha workflow.',
+    highlights: 'NSE research · backtesting · market-regime controls · broker-safe execution design',
+    stack: 'Python · pandas · FastAPI · GitHub Actions · Zerodha Kite',
     live: 'https://alph-edge.vercel.app/',
     code: 'https://github.com/Juiceyyyy/AlphEdge',
   },
   {
     number: '04',
     name: 'FaceTrack',
-    label: 'Real-time computer vision',
+    type: 'Computer vision',
     description:
-      'A full-stack face-recognition system with multi-angle registration, detection analytics and a FastAPI service layer. Project testing reached 98% recognition accuracy, with multi-angle enrollment reducing false negatives by 40%.',
-    proof: '98% recognition accuracy · 40% fewer false negatives',
-    stack: ['Python', 'FastAPI', 'OpenCV', 'InsightFace', 'React', 'Supabase'],
+      'Real-time recognition system with multi-angle registration, detection analytics and a FastAPI service layer.',
+    highlights: '98% recognition accuracy · 40% fewer false negatives in project testing',
+    stack: 'Python · OpenCV · InsightFace · FastAPI · React · Supabase',
     live: 'https://facetrack-dbit.vercel.app/',
     code: 'https://github.com/Juiceyyyy/FaceTrack',
   },
 ];
 
-const toolkit = [
-  {
-    title: 'Core engineering',
-    items: ['Python', 'SQL', 'JavaScript / TypeScript', 'UNIX', 'REST APIs', 'Git'],
-  },
-  {
-    title: 'Backend & data',
-    items: ['FastAPI', 'PostgreSQL', 'Snowflake', 'Informatica / IICS', 'Supabase', 'ETL / ELT'],
-  },
-  {
-    title: 'AI & quantitative',
-    items: ['RAG', 'pgvector', 'Computer Vision', 'Time-series research', 'Backtesting', 'ML workflows'],
-  },
-  {
-    title: 'Product & cloud',
-    items: ['Next.js', 'React', 'Vercel', 'Cloudflare', 'GitHub Actions', 'AWS / GCP / Azure'],
-  },
-];
-
-const metrics = [
-  { value: '300k+', label: 'historical matches in a sports-data corpus' },
-  { value: '98%', label: 'recognition accuracy in FaceTrack project testing' },
-  { value: '40%', label: 'fewer false negatives after multi-angle registration' },
-  { value: '3', label: 'Anthropic Claude certifications' },
+const capabilities = [
+  ['Languages', 'Python, SQL, JavaScript / TypeScript, C/C++, UNIX'],
+  ['Backend & data', 'FastAPI, PostgreSQL, Snowflake, Informatica / IICS, Supabase, ETL / ELT'],
+  ['AI & quantitative', 'RAG, pgvector, computer vision, time-series research, backtesting, ML workflows'],
+  ['Product & cloud', 'Next.js, React, GitHub Actions, Vercel, Cloudflare, AWS / GCP / Azure'],
 ];
 
 const schema = {
@@ -82,52 +63,37 @@ const schema = {
   url: 'https://joshua-menezes.vercel.app/',
   email: 'mailto:joshuamenezes65@gmail.com',
   jobTitle: 'Software Developer',
-  worksFor: {
-    '@type': 'Organization',
-    name: 'Capgemini',
-  },
-  alumniOf: {
-    '@type': 'CollegeOrUniversity',
-    name: 'Don Bosco Institute of Technology, Mumbai',
-  },
+  worksFor: { '@type': 'Organization', name: 'Capgemini' },
+  alumniOf: { '@type': 'CollegeOrUniversity', name: 'Don Bosco Institute of Technology, Mumbai' },
   sameAs: [
     'https://github.com/Juiceyyyy',
     'https://www.linkedin.com/in/joshuamenezes-/',
-  ],
-  knowsAbout: [
-    'Python',
-    'Backend Engineering',
-    'Data Engineering',
-    'Applied AI',
-    'Quantitative Systems',
-    'Snowflake',
-    'FastAPI',
-    'PostgreSQL',
   ],
 };
 
 const PortfolioPage = () => (
   <>
     <PortfolioStyle />
+
     <Helmet>
       <html lang="en" />
-      <title>Joshua Menezes — Software Engineer | Python, Data & AI</title>
+      <title>Joshua Menezes — Software Engineer</title>
       <meta
         name="description"
-        content="Joshua Menezes is a software engineer in Mumbai building Python, backend, data, applied-AI and quantitative systems."
+        content="Joshua Menezes is a software engineer in Mumbai working across Python, backend and data engineering, applied AI, and quantitative systems."
       />
       <meta
         name="keywords"
         content="Joshua Menezes, software engineer, Python developer, backend engineer, data engineer, FastAPI, Snowflake, applied AI, quantitative systems, Mumbai"
       />
-      <meta name="theme-color" content="#0b0d10" />
+      <meta name="theme-color" content="#f3f1ea" />
       <meta name="robots" content="index,follow" />
       <link rel="canonical" href="https://joshua-menezes.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Joshua Menezes — Software Engineer" />
       <meta
         property="og:description"
-        content="Python, backend and data engineering, applied AI and quantitative systems."
+        content="Python, backend and data engineering, applied AI, and quantitative systems."
       />
       <meta property="og:url" content="https://joshua-menezes.vercel.app/" />
       <meta property="og:site_name" content="Joshua Menezes" />
@@ -141,284 +107,281 @@ const PortfolioPage = () => (
 
     <header className="site-header">
       <a className="brand" href="#top" aria-label="Joshua Menezes — home">
-        JM<span>/</span>
+        Joshua Menezes
       </a>
+
       <nav className="site-nav" aria-label="Primary navigation">
         <a href="#work">Work</a>
         <a href="#experience">Experience</a>
-        <a href="#toolkit">Toolkit</a>
         <a href="#about">About</a>
       </nav>
-      <a className="header-cta" href="mailto:joshuamenezes65@gmail.com">
-        Get in touch
-      </a>
+
+      <div className="header-actions">
+        <a
+          className="header-link"
+          href="https://www.linkedin.com/in/joshuamenezes-/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a className="resume-link" href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">
+          Resume
+        </a>
+      </div>
     </header>
 
     <main id="main">
       <section className="hero shell" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow">Software Engineer · Mumbai, India</p>
-          <h1>I build systems where data, software and decisions meet.</h1>
+        <div className="hero-main">
+          <p className="eyebrow">Software Developer · Capgemini · Mumbai</p>
+          <h1>Software engineer building data-intensive products.</h1>
           <p className="hero-intro">
-            I&apos;m Joshua Menezes, a Software Developer at Capgemini. I work across Python,
-            backend and data engineering, applied AI and quantitative systems — from enterprise
-            data workflows to production-facing products.
+            I work across Python, backend and data engineering, applied AI and quantitative
+            systems. Professionally, I build enterprise data workflows. Independently, I ship
+            end-to-end products spanning RAG, sports intelligence, market research and computer
+            vision.
           </p>
+
           <div className="hero-actions">
-            <a className="button button-primary" href="#work">
-              Explore selected work
+            <a className="button button-dark" href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">
+              Download resume
+            </a>
+            <a className="button button-outline" href="mailto:joshuamenezes65@gmail.com">
+              Email me
+            </a>
+          </div>
+
+          <div className="hero-links" aria-label="Profile links">
+            <a href="https://github.com/Juiceyyyy" target="_blank" rel="noreferrer">
+              GitHub ↗
             </a>
             <a
-              className="button button-secondary"
-              href="https://github.com/Juiceyyyy"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              className="text-link hero-link"
               href="https://www.linkedin.com/in/joshuamenezes-/"
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+              LinkedIn ↗
             </a>
           </div>
         </div>
 
-        <aside className="signal-card" aria-label="Current engineering profile">
-          <div className="signal-topline">
-            <span className="status-dot" aria-hidden="true" />
-            <span>Current signal</span>
+        <aside className="profile-facts" aria-label="Professional summary">
+          <div className="fact">
+            <span>Current</span>
+            <strong>Software Developer at Capgemini</strong>
           </div>
-          <div className="signal-row">
-            <span>Role</span>
-            <strong>Software Developer · Capgemini</strong>
+          <div className="fact">
+            <span>Core</span>
+            <strong>Python · Backend · Data Engineering</strong>
           </div>
-          <div className="signal-row">
-            <span>Focus</span>
-            <strong>Python · Backend · Data</strong>
+          <div className="fact">
+            <span>Also building</span>
+            <strong>Applied AI · Quantitative Systems</strong>
           </div>
-          <div className="signal-row">
-            <span>Edge</span>
-            <strong>Applied AI · Quant systems</strong>
+          <div className="fact">
+            <span>Education</span>
+            <strong>Computer Engineering · Honors in Cyber Security</strong>
           </div>
-          <div className="signal-row">
-            <span>Building</span>
-            <strong>Citeral · WhatsTheOdds · AlphEdge</strong>
-          </div>
-          <div className="signal-footer">
-            <span>2026</span>
-            <span>Mumbai / IST</span>
+          <div className="fact fact-last">
+            <span>Certifications</span>
+            <strong>3× Anthropic Claude certified</strong>
           </div>
         </aside>
       </section>
 
-      <section className="metric-band" aria-label="Project highlights">
-        <div className="shell metric-grid">
-          {metrics.map(metric => (
-            <div className="metric" key={metric.value + metric.label}>
-              <strong>{metric.value}</strong>
-              <span>{metric.label}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <section className="section shell" id="work">
         <div className="section-heading">
+          <p className="section-label">Selected work</p>
           <div>
-            <p className="section-kicker">Selected systems</p>
-            <h2>Work that reflects how I engineer now.</h2>
+            <h2>Systems I’ve built.</h2>
+            <p>
+              These are the projects that best represent my current engineering work — data,
+              backend architecture, applied models and production-facing product decisions.
+            </p>
           </div>
-          <p className="section-copy">
-            Fewer demo projects, more end-to-end systems: real data models, APIs, retrieval,
-            production constraints, deployment and user-facing surfaces.
-          </p>
         </div>
 
-        <div className="project-grid">
+        <div className="project-list">
           {projects.map(project => (
-            <article className="project-card" key={project.name}>
-              <div className="project-meta">
-                <span>{project.number}</span>
-                <span>{project.label}</span>
-              </div>
-              <div className="project-title-row">
-                <h3>{project.name}</h3>
-                <span className="project-mark" aria-hidden="true">
-                  ↗
-                </span>
-              </div>
-              <p>{project.description}</p>
-              <div className="project-proof">{project.proof}</div>
-              <ul className="tag-list" aria-label={project.name + ' technology stack'}>
-                {project.stack.map(item => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-              <div className="project-links">
-                <a href={project.live} target="_blank" rel="noreferrer">
-                  Live product
-                </a>
-                {project.code ? (
-                  <a href={project.code} target="_blank" rel="noreferrer">
-                    Source
-                  </a>
-                ) : (
-                  <span>Private codebase</span>
-                )}
+            <article className="project-row" key={project.name}>
+              <div className="project-number">{project.number}</div>
+
+              <div className="project-body">
+                <div className="project-heading">
+                  <div>
+                    <p className="project-type">{project.type}</p>
+                    <h3>{project.name}</h3>
+                  </div>
+
+                  <div className="project-links">
+                    <a href={project.live} target="_blank" rel="noreferrer">
+                      Live ↗
+                    </a>
+                    {project.code ? (
+                      <a href={project.code} target="_blank" rel="noreferrer">
+                        Code ↗
+                      </a>
+                    ) : (
+                      <span>Private repo</span>
+                    )}
+                  </div>
+                </div>
+
+                <p className="project-description">{project.description}</p>
+
+                <dl className="project-details">
+                  <div>
+                    <dt>Highlights</dt>
+                    <dd>{project.highlights}</dd>
+                  </div>
+                  <div>
+                    <dt>Stack</dt>
+                    <dd>{project.stack}</dd>
+                  </div>
+                </dl>
               </div>
             </article>
           ))}
         </div>
 
         <div className="earlier-work">
-          <span>Earlier shipped work</span>
+          <span>Earlier work</span>
           <p>
             <strong>UniPay</strong> — QR + biometric event payments
-            <i aria-hidden="true">/</i>
+            <i>/</i>
             <strong>RedLife</strong> — donor mapping + blood-bank inventory
           </p>
         </div>
       </section>
 
-      <section className="section shell experience-section" id="experience">
-        <div className="section-heading compact">
+      <section className="section shell split-section" id="experience">
+        <div className="section-heading split-heading">
+          <p className="section-label">Experience</p>
           <div>
-            <p className="section-kicker">Experience</p>
-            <h2>Production context, then independent depth.</h2>
+            <h2>Professional experience.</h2>
           </div>
         </div>
 
-        <div className="timeline">
-          <article className="timeline-item">
-            <div className="timeline-date">Aug 2025 — Present</div>
-            <div className="timeline-body">
-              <div className="role-line">
-                <h3>Software Developer</h3>
-                <span>Capgemini · Mumbai</span>
+        <div className="experience-grid">
+          <div className="experience-list">
+            <article className="experience-item">
+              <div className="experience-top">
+                <div>
+                  <h3>Software Developer</h3>
+                  <p>Capgemini · Mumbai</p>
+                </div>
+                <time>Aug 2025 — Present</time>
               </div>
-              <p>
-                Build and support enterprise ETL/ELT and data-warehouse workflows across
-                Informatica, Snowflake, SQL and UNIX environments, with Python as part of the
-                broader engineering stack.
-              </p>
-              <p>
-                My professional work gives me the reliability, validation and production-support
-                side of engineering; my independent products push deeper into backend systems,
-                applied AI and quantitative research.
-              </p>
-            </div>
-          </article>
-
-          <article className="timeline-item">
-            <div className="timeline-date">2022 — 2025</div>
-            <div className="timeline-body">
-              <div className="role-line">
-                <h3>Student technology leadership</h3>
-                <span>ACM-DBIT · TEKNACK Gaming Studios</span>
-              </div>
-              <p>
-                Progressed through ACM-DBIT leadership to Chairperson, leading a 27-member
-                chapter team and organizing technical workshops, events and
-                student-community initiatives. I also contributed to TEKNACK Gaming Studios for
-                three years.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section className="section shell" id="toolkit">
-        <div className="section-heading">
-          <div>
-            <p className="section-kicker">Engineering toolkit</p>
-            <h2>The stack changes. The systems thinking stays.</h2>
-          </div>
-          <p className="section-copy">
-            I&apos;m strongest where Python, data and backend engineering overlap, and comfortable
-            carrying that work into the product layer when needed.
-          </p>
-        </div>
-
-        <div className="toolkit-grid">
-          {toolkit.map(group => (
-            <article className="toolkit-card" key={group.title}>
-              <h3>{group.title}</h3>
               <ul>
-                {group.items.map(item => (
-                  <li key={item}>{item}</li>
-                ))}
+                <li>
+                  Build and support ETL/ELT pipelines for enterprise data warehousing and cloud
+                  migration using Informatica, Snowflake, SQL and UNIX-based workflows.
+                </li>
+                <li>
+                  Work across data integration, transformation and validation in enterprise
+                  delivery environments, with Python as part of the broader engineering stack.
+                </li>
               </ul>
             </article>
-          ))}
+
+            <article className="experience-item">
+              <div className="experience-top">
+                <div>
+                  <h3>Chairperson</h3>
+                  <p>ACM-DBIT & TEKNACK Gaming Studios</p>
+                </div>
+                <time>2022 — 2025</time>
+              </div>
+              <ul>
+                <li>
+                  Progressed through chapter leadership to Chairperson and led a 27-member team
+                  across technical events, workshops and student-community initiatives.
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <aside className="capabilities" aria-label="Technical capabilities">
+            <p className="aside-title">Technical focus</p>
+            {capabilities.map(([title, items]) => (
+              <div className="capability" key={title}>
+                <span>{title}</span>
+                <p>{items}</p>
+              </div>
+            ))}
+          </aside>
         </div>
       </section>
 
       <section className="section shell about-section" id="about">
-        <div className="about-copy">
-          <p className="section-kicker">About</p>
-          <h2>I like problems with messy data and a measurable outcome.</h2>
-          <p>
-            I studied Computer Engineering at Don Bosco Institute of Technology, Mumbai, with
-            Honors in Cyber Security. The projects I keep building sit at the intersection of
-            engineering and decision-making: sports prediction, evidence-grounded AI, systematic
-            market research and computer vision.
-          </p>
-          <p>
-            I care about shipping useful systems, being explicit about limitations, and making
-            technical work understandable to the people who use it.
-          </p>
+        <div className="section-heading">
+          <p className="section-label">About</p>
+          <div>
+            <h2>Engineering with context, not just code.</h2>
+            <p>
+              I studied Computer Engineering at Don Bosco Institute of Technology, Mumbai, with
+              Honors in Cyber Security. I’m drawn to problems where software has to make sense of
+              real data and produce an outcome someone can act on.
+            </p>
+            <p>
+              That has taken me from enterprise data engineering to sports prediction,
+              evidence-grounded AI, systematic market research, computer vision and payments.
+            </p>
+          </div>
         </div>
 
-        <div className="credential-stack">
-          <article className="credential-card">
+        <div className="about-meta">
+          <div>
             <span>Education</span>
-            <h3>Bachelor’s in Computer Engineering</h3>
+            <strong>Bachelor’s in Computer Engineering</strong>
             <p>Don Bosco Institute of Technology, Mumbai · 2021–2025</p>
             <small>Honors in Cyber Security</small>
-          </article>
-          <article className="credential-card">
+          </div>
+          <div>
             <span>Anthropic certifications</span>
-            <h3>Claude Developer · Architect · Associate</h3>
-            <p>
-              Claude Certified Developer, Claude Certified Architect — Professional, and Claude
-              Certified Associate.
-            </p>
-          </article>
+            <strong>Developer · Architect — Professional · Associate</strong>
+            <p>Three Claude certifications across development, architecture and foundations.</p>
+          </div>
         </div>
       </section>
 
       <section className="contact-section" id="contact">
-        <div className="shell contact-inner">
-          <p className="section-kicker">Contact</p>
-          <h2>Have a hard data or engineering problem?</h2>
-          <p>
-            I&apos;m especially interested in software, Python/backend, data-intensive, applied-AI
-            and quantitative engineering work.
-          </p>
-          <div className="contact-actions">
-            <a className="button button-light" href="mailto:joshuamenezes65@gmail.com">
-              joshuamenezes65@gmail.com
-            </a>
-            <a
-              className="text-link light-link"
-              href="https://www.linkedin.com/in/joshuamenezes-/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              className="text-link light-link"
-              href="https://github.com/Juiceyyyy"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
+        <div className="shell contact-grid">
+          <div>
+            <p className="section-label section-label-light">Contact</p>
+            <h2>Recruiting, collaboration or an interesting engineering problem.</h2>
+          </div>
+
+          <div className="contact-copy">
+            <p>
+              I’m particularly interested in software, Python/backend, data-intensive,
+              applied-AI and quantitative engineering work.
+            </p>
+            <div className="contact-actions">
+              <a className="button button-light" href="mailto:joshuamenezes65@gmail.com">
+                Email Joshua
+              </a>
+              <a
+                className="button button-light-outline"
+                href="/resume.pdf"
+                download="Joshua_Menezes_Resume.pdf"
+              >
+                Download resume
+              </a>
+            </div>
+            <div className="contact-links">
+              <a
+                href="https://www.linkedin.com/in/joshuamenezes-/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn ↗
+              </a>
+              <a href="https://github.com/Juiceyyyy" target="_blank" rel="noreferrer">
+                GitHub ↗
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -426,8 +389,8 @@ const PortfolioPage = () => (
 
     <footer className="site-footer">
       <div className="shell footer-inner">
-        <span>Joshua Menezes · 2026</span>
-        <span>Software engineering / data / AI / quantitative systems</span>
+        <span>Joshua Menezes</span>
+        <span>Mumbai, India · 2026</span>
       </div>
     </footer>
   </>

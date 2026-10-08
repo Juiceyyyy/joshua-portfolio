@@ -88,7 +88,7 @@ const metrics = [
     label: 'recognition accuracy I reached in FaceTrack project testing',
   },
   {
-    value: '27',
+    value: '30',
     kicker: 'Leadership',
     label: 'people I led as ACM-DBIT Chairperson',
   },
@@ -130,6 +130,7 @@ const PortfolioPage = () => (
         content="Joshua Menezes, software engineer, Python developer, backend engineer, data engineer, FastAPI, Snowflake, applied AI, quantitative systems, Mumbai"
       />
       <meta name="theme-color" content="#0d1117" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       <meta name="robots" content="index,follow" />
       <link rel="canonical" href="https://joshua-menezes.vercel.app/" />
       <meta property="og:type" content="website" />
@@ -149,8 +150,9 @@ const PortfolioPage = () => (
     </a>
 
     <div className="topline shell" aria-label="Quick links">
-      <a className="topline-name" href="#top">
-        Joshua Menezes
+      <a className="topline-name" href="#top" aria-label="Joshua Menezes — back to top">
+        <img className="brand-mark" src="/favicon.svg" width="34" height="34" alt="" />
+        <span>Joshua Menezes</span>
       </a>
       <div className="topline-links">
         <a href="mailto:joshuamenezes65@gmail.com">Email</a>
@@ -384,7 +386,7 @@ const PortfolioPage = () => (
                   <span>ACM-DBIT · TEKNACK Gaming Studios</span>
                 </div>
                 <p>
-                  I progressed through ACM-DBIT leadership to Chairperson, led a 27-member chapter
+                  I progressed through ACM-DBIT leadership to Chairperson, led a 30-member chapter
                   team across technical workshops and events, and contributed to TEKNACK Gaming
                   Studios for three years.
                 </p>

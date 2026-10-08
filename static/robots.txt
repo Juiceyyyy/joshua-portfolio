@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joshua-menezes.vercel.app/sitemap.xml

@@ -1,11 +1,9 @@
-# Project dependencies
-.cache
-node_modules
-yarn-error.log
-package-lock.json
-
-# Build directory
-/public
+.cache/
+public/
+node_modules/
+static/resume.pdf
 .DS_Store
-
-.vscode/
+.env*
+!.env.example
+npm-debug.log*
+yarn-error.log*

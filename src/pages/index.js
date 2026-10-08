@@ -8,8 +8,9 @@ const projects = [
     name: 'Citeral',
     type: 'Applied AI / RAG',
     description:
-      'A multi-tenant AI workspace for private documents and curated knowledge, built around hybrid retrieval, scoped authorization and inspectable citations instead of black-box answers.',
-    proof: 'Hybrid RAG · PostgreSQL RLS · pgvector · source inspection',
+      'I built a multi-tenant AI workspace for private documents and curated knowledge, with hybrid retrieval, scoped authorization and inspectable citations instead of black-box answers.',
+    proof:
+      'I combined hybrid retrieval, PostgreSQL RLS, pgvector and source-level citations into one usable workflow.',
     stack: ['Next.js', 'TypeScript', 'Supabase', 'pgvector', 'Python', 'Cloudflare Workers AI'],
     live: 'https://citeral.vercel.app/',
     code: 'https://github.com/Juiceyyyy/Citeral',
@@ -19,8 +20,9 @@ const projects = [
     name: 'WhatsTheOdds',
     type: 'Sports intelligence',
     description:
-      'A full-stack sports intelligence product combining historical and live data, match forecasting, odds comparison, bet tracking, authentication and payments.',
-    proof: '300k+ historical matches · prediction workflows · auth + payments',
+      'I built a full-stack sports intelligence product that combines historical and live data, match forecasting, odds comparison, bet tracking, authentication and payments.',
+    proof:
+      'I designed the data layer around 300k+ historical matches and carried the product through prediction, auth and payments.',
     stack: ['Next.js', 'FastAPI', 'PostgreSQL', 'Supabase', 'Stripe', 'Python'],
     live: 'https://whatstheodds.vercel.app/',
     code: null,
@@ -30,8 +32,9 @@ const projects = [
     name: 'AlphEdge',
     type: 'Quantitative systems',
     description:
-      'An open-source Indian-equity research system for momentum ranking, inverse-volatility sizing, market-regime controls, forward tracking and a guarded Zerodha workflow.',
-    proof: 'NSE research · backtesting · regime controls · broker-safe design',
+      'I built an open-source Indian-equity research system for momentum ranking, inverse-volatility sizing, market-regime controls, forward tracking and a guarded Zerodha workflow.',
+    proof:
+      'I combined research, backtesting, regime controls and a deliberately guarded broker workflow in one system.',
     stack: ['Python', 'pandas', 'FastAPI', 'GitHub Actions', 'Zerodha Kite'],
     live: 'https://alph-edge.vercel.app/',
     code: 'https://github.com/Juiceyyyy/AlphEdge',
@@ -41,8 +44,9 @@ const projects = [
     name: 'FaceTrack',
     type: 'Computer vision',
     description:
-      'A real-time recognition system with multi-angle registration, detection analytics and a FastAPI service layer for end-to-end computer vision workflows.',
-    proof: '98% recognition accuracy · 40% fewer false negatives in project testing',
+      'I built a real-time recognition system with multi-angle registration, detection analytics and a FastAPI service layer for end-to-end computer vision workflows.',
+    proof:
+      'I reached 98% recognition accuracy and reduced false negatives by 40% in project testing.',
     stack: ['Python', 'OpenCV', 'InsightFace', 'FastAPI', 'React', 'Supabase'],
     live: 'https://facetrack-dbit.vercel.app/',
     code: 'https://github.com/Juiceyyyy/FaceTrack',
@@ -52,31 +56,47 @@ const projects = [
 const toolkit = [
   {
     title: 'Core engineering',
-    lead: 'The tools I reach for most.',
+    lead: 'These are the tools I reach for most.',
     items: ['Python', 'SQL', 'JavaScript / TypeScript', 'UNIX', 'REST APIs', 'Git'],
   },
   {
     title: 'Backend & data',
-    lead: 'Where most of my production work lives.',
+    lead: 'This is where most of my production work lives.',
     items: ['FastAPI', 'PostgreSQL', 'Snowflake', 'Informatica / IICS', 'Supabase', 'ETL / ELT'],
   },
   {
     title: 'AI & quantitative',
-    lead: 'Systems that reason over data.',
+    lead: 'I use these when the system needs to reason over data.',
     items: ['RAG', 'pgvector', 'Computer Vision', 'Time-series research', 'Backtesting', 'ML workflows'],
   },
   {
     title: 'Product & cloud',
-    lead: 'Enough frontend and infra to ship end-to-end.',
+    lead: 'I use these to carry ideas through to something people can use.',
     items: ['Next.js', 'React', 'Vercel', 'Cloudflare', 'GitHub Actions', 'AWS / GCP / Azure'],
   },
 ];
 
 const metrics = [
-  { value: 'Capgemini', label: 'Software Developer · enterprise data engineering' },
-  { value: '300k+', label: 'historical matches powering sports-data workflows' },
-  { value: '98%', label: 'FaceTrack recognition accuracy in project testing' },
-  { value: '3×', label: 'Anthropic Claude certifications' },
+  {
+    value: '300k+',
+    kicker: 'Data scale',
+    label: 'historical matches I structured into the sports-data platform',
+  },
+  {
+    value: '98%',
+    kicker: 'Computer vision',
+    label: 'recognition accuracy I reached in FaceTrack project testing',
+  },
+  {
+    value: '27',
+    kicker: 'Leadership',
+    label: 'people I led as ACM-DBIT Chairperson',
+  },
+  {
+    value: '3×',
+    kicker: 'AI credentials',
+    label: 'Anthropic Claude certifications across developer, architect and associate tracks',
+  },
 ];
 
 const schema = {
@@ -161,13 +181,13 @@ const PortfolioPage = () => (
 
           <div className="hero-actions">
             <a className="button button-primary" href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">
-              Download resume
+              Download my resume
             </a>
             <a className="button button-secondary" href="mailto:joshuamenezes65@gmail.com">
-              Connect with me
+              Get in touch
             </a>
             <a className="button button-quiet" href="#work">
-              See selected work ↓
+              Explore my work ↓
             </a>
           </div>
 
@@ -179,220 +199,241 @@ const PortfolioPage = () => (
           </div>
         </div>
 
-        <aside className="signal-card" aria-label="Professional snapshot">
+        <aside className="signal-card" aria-label="Quick introduction">
           <div className="signal-header">
             <span className="signal-dot" aria-hidden="true" />
-            <span>Recruiter snapshot</span>
+            <span>A quick introduction</span>
           </div>
           <div className="signal-row">
-            <span>Current role</span>
-            <strong>Software Developer at Capgemini</strong>
+            <span>What I do now</span>
+            <strong>I’m a Software Developer at Capgemini.</strong>
           </div>
           <div className="signal-row">
-            <span>Strongest fit</span>
+            <span>What I’m strongest at</span>
             <strong>Python · Backend · Data Engineering</strong>
           </div>
           <div className="signal-row">
-            <span>Differentiator</span>
+            <span>What sets my work apart</span>
             <strong>Applied AI · Quantitative Systems</strong>
           </div>
           <div className="signal-row">
-            <span>Education</span>
+            <span>What I studied</span>
             <strong>Computer Engineering · Cyber Security Honors</strong>
           </div>
           <div className="signal-actions">
-            <a href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">Resume ↗</a>
-            <a href="mailto:joshuamenezes65@gmail.com">Email ↗</a>
+            <a href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">My resume ↗</a>
+            <a href="mailto:joshuamenezes65@gmail.com">Email me ↗</a>
           </div>
         </aside>
       </section>
 
-      <section className="metric-band" aria-label="Selected proof points">
-        <div className="shell metric-grid">
-          {metrics.map(metric => (
-            <div className="metric" key={metric.value + metric.label}>
-              <strong>{metric.value}</strong>
-              <span>{metric.label}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="section shell" id="work">
-        <div className="section-heading">
-          <div>
-            <p className="section-kicker">Selected work</p>
-            <h2>Projects that show how I think and build.</h2>
-          </div>
-          <p className="section-copy">
-            Each one combines engineering depth with a real product outcome — data models, APIs,
-            deployment, interfaces and the decisions around making the system reliable enough to use.
-          </p>
-        </div>
-
-        <div className="project-grid">
-          {projects.map(project => (
-            <article className="project-card" key={project.name}>
-              <div className="project-meta">
-                <span>{project.number}</span>
-                <span>{project.type}</span>
-              </div>
-
-              <div className="project-title-row">
-                <h3>{project.name}</h3>
-                <span className="project-arrow" aria-hidden="true">↗</span>
-              </div>
-
-              <p>{project.description}</p>
-              <div className="project-proof">{project.proof}</div>
-
-              <ul className="tag-list" aria-label={project.name + ' technology stack'}>
-                {project.stack.map(item => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-
-              <div className="project-links">
-                <a className="project-link-primary" href={project.live} target="_blank" rel="noreferrer">
-                  View live product ↗
-                </a>
-                {project.code ? (
-                  <a href={project.code} target="_blank" rel="noreferrer">
-                    Source code ↗
-                  </a>
-                ) : (
-                  <span>Private codebase</span>
-                )}
-              </div>
-            </article>
-          ))}
-        </div>
-
-        <div className="earlier-work">
-          <span>Earlier shipped work</span>
-          <p>
-            <strong>UniPay</strong> — QR + biometric event payments
-            <i aria-hidden="true">/</i>
-            <strong>RedLife</strong> — donor mapping + blood-bank inventory
-          </p>
-        </div>
-      </section>
-
-      <section className="section shell toolkit-section" id="toolkit">
-        <div className="section-heading">
-          <div>
-            <p className="section-kicker">Engineering toolkit</p>
-            <h2>The stack recruiters usually want to scan first.</h2>
-          </div>
-          <p className="section-copy">
-            My strongest overlap is Python + data + backend engineering, with enough product,
-            cloud and AI experience to carry systems end-to-end.
-          </p>
-        </div>
-
-        <div className="toolkit-grid">
-          {toolkit.map(group => (
-            <article className="toolkit-card" key={group.title}>
-              <div className="toolkit-top">
-                <h3>{group.title}</h3>
-                <span>{group.lead}</span>
-              </div>
-              <ul>
-                {group.items.map(item => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="section shell experience-section" id="experience">
-        <div className="section-heading compact">
-          <div>
-            <p className="section-kicker">Experience</p>
-            <h2>Production work first. Independent depth alongside it.</h2>
-          </div>
-        </div>
-
-        <div className="timeline">
-          <article className="timeline-item">
-            <div className="timeline-date">Aug 2025 — Present</div>
-            <div className="timeline-body">
-              <div className="role-line">
-                <h3>Software Developer</h3>
-                <span>Capgemini · Mumbai</span>
-              </div>
-              <p>
-                Build and support enterprise ETL/ELT and data-warehouse workflows across
-                Informatica, Snowflake, SQL and UNIX environments, with Python as part of the
-                broader engineering stack.
-              </p>
-              <div className="role-tags">
-                <span>Snowflake</span>
-                <span>Informatica</span>
-                <span>SQL</span>
-                <span>Python</span>
-                <span>UNIX</span>
-              </div>
-            </div>
-          </article>
-
-          <article className="timeline-item">
-            <div className="timeline-date">2022 — 2025</div>
-            <div className="timeline-body">
-              <div className="role-line">
-                <h3>Chairperson & technology leadership</h3>
-                <span>ACM-DBIT · TEKNACK Gaming Studios</span>
-              </div>
-              <p>
-                Progressed through ACM-DBIT leadership to Chairperson, leading a 27-member chapter
-                team across technical workshops, events and student-community initiatives while
-                contributing to TEKNACK Gaming Studios for three years.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section className="section shell about-section" id="about">
-        <div className="about-copy">
-          <p className="section-kicker">About</p>
-          <h2>I like messy data, measurable outcomes and systems that actually get used.</h2>
-          <p>
-            I studied Computer Engineering at Don Bosco Institute of Technology, Mumbai, with
-            Honors in Cyber Security. The work I keep gravitating toward sits at the intersection
-            of software, data and decision-making.
-          </p>
-          <p>
-            That has taken me from enterprise data engineering to evidence-grounded AI, sports
-            prediction, systematic market research, computer vision and payments.
-          </p>
-        </div>
-
-        <div className="credential-stack">
-          <article className="credential-card credential-accent">
-            <span>Education</span>
-            <h3>Bachelor’s in Computer Engineering</h3>
-            <p>Don Bosco Institute of Technology, Mumbai · 2021–2025</p>
-            <small>Honors in Cyber Security</small>
-          </article>
-          <article className="credential-card">
-            <span>Anthropic certifications</span>
-            <h3>Claude Developer · Architect · Associate</h3>
+      <section className="proof-band" aria-label="A few numbers behind my work">
+        <div className="shell proof-layout">
+          <div className="proof-heading">
+            <p className="section-kicker">At a glance</p>
+            <h2>A few numbers behind my work.</h2>
             <p>
-              Three Claude certifications across development, architecture and foundational
-              platform knowledge.
+              I care about measurable outcomes, so I like showing the scale, results and
+              responsibility behind the projects — not just the technology names.
             </p>
-          </article>
+          </div>
+
+          <div className="metric-grid">
+            {metrics.map(metric => (
+              <article className="metric" key={metric.value + metric.label}>
+                <span className="metric-kicker">{metric.kicker}</span>
+                <strong>{metric.value}</strong>
+                <p>{metric.label}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-work" id="work">
+        <div className="shell">
+          <div className="section-heading">
+            <div>
+              <p className="section-kicker">Selected work</p>
+              <h2>These projects show how I think and build.</h2>
+            </div>
+            <p className="section-copy">
+              I picked these because each one goes beyond a demo. I had to make decisions around
+              data models, APIs, deployment, product behavior and reliability — and carry those
+              decisions through to something usable.
+            </p>
+          </div>
+
+          <div className="project-grid">
+            {projects.map(project => (
+              <article className="project-card" key={project.name}>
+                <div className="project-meta">
+                  <span>{project.number}</span>
+                  <span>{project.type}</span>
+                </div>
+
+                <div className="project-title-row">
+                  <h3>{project.name}</h3>
+                  <span className="project-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p>{project.description}</p>
+                <div className="project-proof">{project.proof}</div>
+
+                <ul className="tag-list" aria-label={project.name + ' technology stack'}>
+                  {project.stack.map(item => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+
+                <div className="project-links">
+                  <a className="project-link-primary" href={project.live} target="_blank" rel="noreferrer">
+                    View what I built ↗
+                  </a>
+                  {project.code ? (
+                    <a href={project.code} target="_blank" rel="noreferrer">
+                      Read the code ↗
+                    </a>
+                  ) : (
+                    <span>Private codebase</span>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="earlier-work">
+            <span>I’ve also shipped</span>
+            <p>
+              <strong>UniPay</strong> — QR + biometric event payments
+              <i aria-hidden="true">/</i>
+              <strong>RedLife</strong> — donor mapping + blood-bank inventory
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-toolkit" id="toolkit">
+        <div className="shell">
+          <div className="section-heading">
+            <div>
+              <p className="section-kicker">Engineering toolkit</p>
+              <h2>Here’s the stack I use to get from idea to working system.</h2>
+            </div>
+            <p className="section-copy">
+              I’m strongest where Python, data and backend engineering overlap. I’m also
+              comfortable moving into product, cloud and applied AI when the problem needs it.
+            </p>
+          </div>
+
+          <div className="toolkit-grid">
+            {toolkit.map(group => (
+              <article className="toolkit-card" key={group.title}>
+                <div className="toolkit-top">
+                  <h3>{group.title}</h3>
+                  <span>{group.lead}</span>
+                </div>
+                <ul>
+                  {group.items.map(item => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-experience" id="experience">
+        <div className="shell">
+          <div className="section-heading compact">
+            <div>
+              <p className="section-kicker">Experience</p>
+              <h2>My professional work gives me production context; my own projects let me go deeper.</h2>
+            </div>
+          </div>
+
+          <div className="timeline">
+            <article className="timeline-item">
+              <div className="timeline-date">Aug 2025 — Present</div>
+              <div className="timeline-body">
+                <div className="role-line">
+                  <h3>Software Developer</h3>
+                  <span>Capgemini · Mumbai</span>
+                </div>
+                <p>
+                  I build and support enterprise ETL/ELT and data-warehouse workflows across
+                  Informatica, Snowflake, SQL and UNIX environments, with Python as part of my
+                  broader engineering stack.
+                </p>
+                <div className="role-tags">
+                  <span>Snowflake</span>
+                  <span>Informatica</span>
+                  <span>SQL</span>
+                  <span>Python</span>
+                  <span>UNIX</span>
+                </div>
+              </div>
+            </article>
+
+            <article className="timeline-item">
+              <div className="timeline-date">2022 — 2025</div>
+              <div className="timeline-body">
+                <div className="role-line">
+                  <h3>Chairperson & technology leadership</h3>
+                  <span>ACM-DBIT · TEKNACK Gaming Studios</span>
+                </div>
+                <p>
+                  I progressed through ACM-DBIT leadership to Chairperson, led a 27-member chapter
+                  team across technical workshops and events, and contributed to TEKNACK Gaming
+                  Studios for three years.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-about" id="about">
+        <div className="shell about-section">
+          <div className="about-copy">
+            <p className="section-kicker">About me</p>
+            <h2>I like messy data, measurable outcomes and systems that actually get used.</h2>
+            <p>
+              I studied Computer Engineering at Don Bosco Institute of Technology, Mumbai, with
+              Honors in Cyber Security. I keep gravitating toward problems where software has to
+              make sense of real data and produce an outcome someone can act on.
+            </p>
+            <p>
+              That’s taken me from enterprise data engineering to evidence-grounded AI, sports
+              prediction, systematic market research, computer vision and payments.
+            </p>
+          </div>
+
+          <div className="credential-stack">
+            <article className="credential-card credential-accent">
+              <span>What I studied</span>
+              <h3>Bachelor’s in Computer Engineering</h3>
+              <p>Don Bosco Institute of Technology, Mumbai · 2021–2025</p>
+              <small>Honors in Cyber Security</small>
+            </article>
+            <article className="credential-card">
+              <span>What I’m certified in</span>
+              <h3>Claude Developer · Architect · Associate</h3>
+              <p>
+                I hold three Anthropic Claude certifications across development, architecture and
+                foundational platform knowledge.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section className="contact-section" id="contact">
         <div className="shell contact-inner">
           <div>
-            <p className="section-kicker">Contact</p>
-            <h2>Seen enough? Here’s the fastest way to reach me.</h2>
+            <p className="section-kicker">Let’s connect</p>
+            <h2>If my work looks relevant to what you’re building, I’d be glad to talk.</h2>
             <p>
               I’m particularly interested in software, Python/backend, data-intensive, applied-AI
               and quantitative engineering opportunities.
@@ -401,13 +442,13 @@ const PortfolioPage = () => (
 
           <div className="contact-panel">
             <a className="contact-primary" href="mailto:joshuamenezes65@gmail.com">
-              <span>Email</span>
+              <span>Email me</span>
               <strong>joshuamenezes65@gmail.com</strong>
               <b>↗</b>
             </a>
             <a className="contact-row" href="/resume.pdf" download="Joshua_Menezes_Resume.pdf">
-              <span>Resume</span>
-              <strong>Download latest CV</strong>
+              <span>My resume</span>
+              <strong>Download my latest CV</strong>
               <b>↓</b>
             </a>
             <a
@@ -417,7 +458,7 @@ const PortfolioPage = () => (
               rel="noreferrer"
             >
               <span>LinkedIn</span>
-              <strong>Professional profile</strong>
+              <strong>See my professional profile</strong>
               <b>↗</b>
             </a>
             <a
@@ -427,7 +468,7 @@ const PortfolioPage = () => (
               rel="noreferrer"
             >
               <span>GitHub</span>
-              <strong>Code & open-source work</strong>
+              <strong>Browse my code and open-source work</strong>
               <b>↗</b>
             </a>
           </div>
@@ -438,7 +479,7 @@ const PortfolioPage = () => (
     <footer className="site-footer">
       <div className="shell footer-inner">
         <span>Joshua Menezes · 2026</span>
-        <span>Software engineering / data / AI / quantitative systems</span>
+        <span>I build across software, data, AI and quantitative systems.</span>
       </div>
     </footer>
   </>

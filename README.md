@@ -1,55 +1,72 @@
 # Joshua Menezes — Portfolio
 
-My personal software engineering portfolio, focused on Python, backend/data engineering, applied AI, and quantitative systems.
+My personal software engineering portfolio. I work with Python, backend and data engineering, applied AI, and quantitative systems.
 
-**Live:** https://joshua-menezes.vercel.app
+**Website:** https://joshua-menezes.vercel.app
 
-## What’s on the site
+## About
 
-A short introduction, results from selected projects (Citeral, WhatsTheOdds, AlphEdge, FaceTrack), an engineering toolkit, professional experience, certifications, and direct ways to reach me.
+A focused, responsive, dark-themed portfolio featuring:
+- Selected projects: Citeral, WhatsTheOdds, AlphEdge, and FaceTrack
+- Technology stack, measurable work, and professional experience
+- Education, certifications, and contact links
+- A downloadable one-page résumé
 
-## Local development
+## Run locally
 
-The site uses Gatsby 2, React, and styled-components. The deployment is connected to Vercel. Node 18 is specified by `.nvmrc` for compatibility with this legacy Gatsby build.
+The site is built with Gatsby 2, React, and styled-components. Node 18 is specified in `.nvmrc` for compatibility with the existing Gatsby build.
 
 ```bash
 corepack enable
-yarn install --frozen-lockfile
+yarn install
 yarn develop
 ```
 
-Then open `http://localhost:8000`. For a production build:
+Open `http://localhost:8000`.
+
+Build and preview the production site:
 
 ```bash
 yarn build
 yarn serve
 ```
 
-Gatsby's compiled `public/` and `.cache/` directories are generated build artifacts and are **not tracked**.
+Vercel deploys automatically from the GitHub `main` branch. No paid services or environment secrets are required.
 
-## Project structure
+## Source layout
 
 ```text
-src/pages/index.js            Main portfolio content
-src/pages/404.js              Not-found page
-src/styles/PortfolioStyle.js  Theme, layout, accessibility and hover styles
-static/favicon.svg            JM monogram used on the site and browser tab
-scripts/ensure-resume.js      Creates the downloadable resume before building
-static/robots.txt             Crawler rules
-static/sitemap.xml            Canonical homepage
-gatsby-config.js              Minimal Gatsby configuration
+src/
+  pages/
+    index.js                 Portfolio content, projects, links, SEO
+    404.js                   Custom not-found page
+  styles/
+    PortfolioStyle.js        Theme, sections, responsive design, interactions
+static/
+  favicon.svg               JM brand mark
+  robots.txt                Search-crawler rules
+  sitemap.xml               Sitemap
+scripts/
+  ensure-resume.js          Produces /resume.pdf before each build
+gatsby-config.js            Gatsby plugin and site configuration
+gatsby-browser.js           Removes obsolete service-worker registrations
+package.json                Dependencies and scripts
+yarn.lock                   Dependency lockfile
+.nvmrc                      Node version
+.gitignore                  Ignored build artifacts
+LICENSE                     Source-code license
 ```
 
-The downloadable file is served at `/resume.pdf`. The build generates it from the compact, versioned resume payload in `scripts/ensure-resume.js`; it is intentionally not duplicated in the repository as a separate binary. The résumé combines content from the AI/FinTech, Core SWE, Data/Backend, and Quant resume variants, preserving their one-page, understated format.
+The résumé file is generated before builds from the validated embedded PDF payload in `scripts/ensure-resume.js`. The generated `static/resume.pdf` is ignored in Git and served at `/resume.pdf`. The résumé combines the four role-focused CV versions into one general software-engineering version while retaining a single-page layout.
 
-## Maintenance
+## Maintain
 
-- Update copy, experience, projects and external links in `src/pages/index.js`.
-- Adjust the dark theme and animation styles in `src/styles/PortfolioStyle.js`.
-- Update the monogram in `static/favicon.svg`.
-- Update the resume payload if the CV changes.
-- Keep the repository free of generated builds, unused images/fonts, and retired portfolio templates.
+- Edit project details, copy, skills, experience, and links in `src/pages/index.js`.
+- Edit layouts, colors, hover-fill animations, and breakpoints in `src/styles/PortfolioStyle.js`.
+- Edit the favicon in `static/favicon.svg`.
+- Replace the validated résumé payload when the resume changes.
+- Keep `public/`, `.cache/`, generated PDFs, and `node_modules/` out of version control.
 
 ## License
 
-MIT for the site source; see [LICENSE](LICENSE). Includes attribution to the original MIT-licensed portfolio template by Brittany Chiang. Project descriptions, personal information and résumé belong to their respective owners.
+MIT License. Copyright © 2026 Joshua Menezes. See [LICENSE](LICENSE) for the terms.

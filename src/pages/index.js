@@ -88,7 +88,7 @@ const metrics = [
     label: 'recognition accuracy I reached in FaceTrack project testing',
   },
   {
-    value: '27',
+    value: '30',
     kicker: 'Leadership',
     label: 'people I led as ACM-DBIT Chairperson',
   },
@@ -386,7 +386,7 @@ const PortfolioPage = () => (
                   <span>ACM-DBIT · TEKNACK Gaming Studios</span>
                 </div>
                 <p>
-                  I progressed through ACM-DBIT leadership to Chairperson, led a 27-member chapter
+                  I progressed through ACM-DBIT leadership to Chairperson, led a 30-member chapter
                   team across technical workshops and events, and contributed to TEKNACK Gaming
                   Studios for three years.
                 </p>

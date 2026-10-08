@@ -1,58 +1,55 @@
-## 🛠 Installation & Set Up
+# Joshua Menezes — Portfolio
 
-1. Install Yarn
-   
-   ```sh
-   npm i --g yarn
-   ```
+My personal software engineering portfolio, focused on Python, backend/data engineering, applied AI, and quantitative systems.
 
-2. Install Dependancies
+**Live:** https://joshua-menezes.vercel.app
 
-   ```sh
-   yarn install
-   ```
+## What’s on the site
 
-3. Install the Gatsby CLI
+A short introduction, results from selected projects (Citeral, WhatsTheOdds, AlphEdge, FaceTrack), an engineering toolkit, professional experience, certifications, and direct ways to reach me.
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+## Local development
 
-4. Set to legacy mode
+The site uses Gatsby 2, React, and styled-components. The deployment is connected to Vercel. Node 18 is specified by `.nvmrc` for compatibility with this legacy Gatsby build.
 
-   ```sh
-   set NODE_OPTIONS=--openssl-legacy-provider
-   ```
+```bash
+corepack enable
+yarn install --frozen-lockfile
+yarn develop
+```
 
-5. Start the development server
+Then open `http://localhost:8000`. For a production build:
 
-   ```sh
-   yarn start
-   ```
+```bash
+yarn build
+yarn serve
+```
 
-## 🚀 Building and Running for Production
+Gatsby's compiled `public/` and `.cache/` directories are generated build artifacts and are **not tracked**.
 
-1. Generate a full static production build
+## Project structure
 
-   ```sh
-   npm run build
-   ```
+```text
+src/pages/index.js            Main portfolio content
+src/pages/404.js              Not-found page
+src/styles/PortfolioStyle.js  Theme, layout, accessibility and hover styles
+static/favicon.svg            JM monogram used on the site and browser tab
+scripts/ensure-resume.js      Creates the downloadable resume before building
+static/robots.txt             Crawler rules
+static/sitemap.xml            Canonical homepage
+gatsby-config.js              Minimal Gatsby configuration
+```
 
-1. Preview the site as it will appear once deployed
+The downloadable file is served at `/resume.pdf`. The build generates it from the compact, versioned resume payload in `scripts/ensure-resume.js`; it is intentionally not duplicated in the repository as a separate binary. The résumé combines content from the AI/FinTech, Core SWE, Data/Backend, and Quant resume variants, preserving their one-page, understated format.
 
-   ```sh
-   npm run serve
-   ```
+## Maintenance
 
-## 🎨 Color Reference
+- Update copy, experience, projects and external links in `src/pages/index.js`.
+- Adjust the dark theme and animation styles in `src/styles/PortfolioStyle.js`.
+- Update the monogram in `static/favicon.svg`.
+- Update the resume payload if the CV changes.
+- Keep the repository free of generated builds, unused images/fonts, and retired portfolio templates.
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+## License
+
+MIT for the site source; see [LICENSE](LICENSE). Includes attribution to the original MIT-licensed portfolio template by Brittany Chiang. Project descriptions, personal information and résumé belong to their respective owners.
